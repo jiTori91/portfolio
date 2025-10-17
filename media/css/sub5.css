@@ -1,0 +1,150 @@
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+
+#imgBG{
+	position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+}
+.cls-1 {
+   fill: none;
+   stroke: #000000;
+   stroke-linecap: round;
+   stroke-linejoin: round;
+   stroke-width: 40px;
+   scale: 1;
+}
+.down{
+   display: block; position: absolute; width: 50px; height: 90px;
+	left:50%; margin-left: -17px; bottom: 15%;
+   overflow: hidden;
+   border: 1px solid #101010;
+   border-radius: 30px;
+   box-shadow: 0 0 10px var(--font-color-sub);
+   backdrop-filter: blur(2px);
+}
+
+#scrolldown{
+   animation:ani 1.5s infinite ease;
+}
+@keyframes ani {
+	0% { transform:translateY(-100px); opacity:1; color:#fff;}
+	100% { transform:translateY(100px); opacity:1; color:#fff;}
+}		
+#content{ width:100%; margin:0;; background:rgba(0,0,0,.9);position: relative;}
+#content h2{
+   position: absolute; top: -400px;
+   width: 100%; text-align: center; font-size: 5rem; color: #fafafa;
+}
+h4{
+   font-size: 4rem; padding: 40px 0 20px 0;
+   margin-left: 50px;
+}
+section{
+   padding-top: 50px;
+   /* margin: 0 50px 100px 50px; */
+   @media screen and (max-width:1024px) {
+      margin: 50px 0;
+   }
+   & >p{
+      text-align: center;
+      font-size: clamp(1.2rem, 1.7vw, 1.7rem);
+      margin-bottom: 50px;
+      @media screen and (max-width:1024px) {
+         padding: 0 10px;
+      }
+   }
+   & h5{font-size: clamp(3.2rem, 5vw, 5rem); text-align: center;}
+}
+/* li marker svg style*/
+/* .redVlogo{
+   enable-background:new 0 0 16 16;
+   width: 50px;
+   @media screen and (max-width:1024px) {
+      width: 25px;
+   }
+}
+.redVlogo .v00{
+   fill-rule:evenodd;clip-rule:evenodd;fill:var(--font-color-point1);
+} */
+
+.divex{
+   display: flex; align-items: center; justify-content: space-between;
+   @media screen and (max-width:1024px) {
+      flex-direction: column;
+   }
+   & >div{
+      width: 48%;
+      @media screen and (max-width:1024px) {
+         width: 100%;
+      }
+      & img{
+         width: 100%;
+         object-fit: cover;
+      }
+   }
+   & ul{
+      width: 48%;
+      @media screen and (max-width:1024px) {
+         width: 100%;
+      }
+      & li{
+         & dl{
+            margin-bottom: 3%;
+            @media screen and (max-width:1024px) {
+               margin: 20px 10px;
+            }
+            
+            & dt{
+               display: flex; justify-content: flex-end; flex-direction: row-reverse; gap: 10px;
+               font-size: clamp(2rem, 2.5vw, 2.5rem);
+               @media screen and (max-width:1024px) {
+                  font-size: clamp(1.5rem, 2vw, 2rem);
+               }
+            }
+            & dt::after{
+               content: url("data:image/svg+xml,%3Csvg version=%271.1%27 xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3E%3Cpath fill=%27red%27 d=%27M8,0.7L0.8,13.3l2,2l4.4-3H4.5L8,6.1l3.5,6.2H8.8l4.4,3l2-2L8,0.7z%27/%3E%3C/svg%3E");
+               width: clamp(2rem, 2.5vh, 2.5rem);
+               height: clamp(2rem, 2.5vh, 2.5rem);
+               @media screen and (max-width:1024px) {
+                  width: clamp(1.5rem, 2vw, 2rem);
+                  height: clamp(1.5rem, 2vw, 2rem);
+               }
+            }
+            & dd{
+               font-size: clamp(1rem, 1.3vw, 1.5rem);
+               padding: 0 calc(clamp(1rem, 1.3vw, 1.5rem) + 13px);
+               @media screen and (max-width:1024px) {
+                  padding: 0 0 0 calc(clamp(1rem, 1.3vw, 1.5rem) + 13px);
+               }
+            }
+         }
+      }
+   }
+}
+.secbr{
+   margin-bottom: 100px;
+   & h5{
+ text-shadow: 0 0 10px var(--font-color-point1);
+   }
+
+}
+
+.secmt{
+   margin-bottom: 100px;
+   & h5{
+   text-shadow: 0 0 10px var(--font-color-point2);
+   }
+}
+.secwc{
+   padding-bottom: 100px;
+   & h5{
+   text-shadow: 0 0 10px var(--font-color-sub);
+   margin-bottom: 0;
+   }
+}

@@ -1,0 +1,218 @@
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+
+#imgBG{
+   position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:0; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+   transform:translateX(-50%) translateY(0);
+   z-index:-100;
+}
+.cls-1 {
+   fill: none;
+   stroke: #000000;
+   stroke-linecap: round;
+   stroke-linejoin: round;
+   stroke-width: 40px;
+   scale: 1;
+}
+.down{
+   display: block; position: absolute; width: 50px; height: 90px;
+	left:50%; margin-left: -17px; bottom: 15%;
+   overflow: hidden;
+   border: 1px solid #101010;
+   border-radius: 30px;
+   box-shadow: 0 0 10px var(--font-color-sub);
+   backdrop-filter: blur(2px);
+}
+
+#scrolldown{
+   animation:ani 1.5s infinite ease;
+}
+@keyframes ani {
+	0% { transform:translateY(-100px); opacity:1; color:#fff;}
+	100% { transform:translateY(100px); opacity:1; color:#fff;}
+}		
+
+	
+#content{ width:100%; margin:0; background:rgba(0,0,0,.9);position: relative;}
+#content h2{
+   position: absolute; top: -400px;
+   width: 100%; text-align: center; font-size: 5rem; color: #fafafa;
+}
+.clip_part {
+    margin: 0 100px;
+    @media screen and (max-width:1024px) {
+        margin: 0 10px;
+    }
+    & h3{
+        font-size: 2.3rem; text-align: left; padding: 50px 20px 20px 20px;
+        margin-bottom: 50px;
+        overflow: hidden;
+        position: relative;
+        @media screen and (max-width:1024px) {
+            font-size: 1.9rem;
+        }
+        @media screen and (max-width:768px) {
+            font-size: 1.5rem;
+            text-align: center;
+            margin-bottom: 0;
+        }
+    }
+    & h3::after{
+        background-image: linear-gradient(0.25turn, rgb(255, 29, 29), rgb(255, 174, 0), rgb(0, 213, 178), rgb(255, 174, 0), rgb(255, 29, 29));
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 400%;
+        bottom: 0%;
+        left: 0;
+        z-index: 1;
+
+        background-size: 100% 100%;
+        background-position: 0 0;
+        animation: h3flow 3s linear alternate infinite;
+        @media screen and (max-width:768px) {
+            height: 5px;
+        }
+    }
+    & .contentArea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        @media screen and (max-width:768px) {
+        flex-direction: column;
+        }
+        & >p{
+            width: 50%;
+            font-size: clamp(1rem, 1.5vw, 1.5rem);
+            padding: 2%;
+            margin-bottom: 20px;
+            @media screen and (max-width:768px) {
+            width: 100%;
+            }
+            @media screen and (max-width:768px) {
+                text-align: center;
+            }
+        }
+        & .imgPart{
+            position: relative;
+            cursor: pointer;
+            margin-bottom: 30px;
+            width: 48%;
+            padding: 2%;
+            @media screen and (max-width:768px) {
+            padding: 0;
+            width: 100%;        
+            }
+            & .playBnt{
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                width: 110px;
+                height: 110px;
+                margin: -55px 0 0 -55px;
+                border-radius: 94px;
+                background: rgba(0,0,0,.6);
+
+                transition: all .3s ease-out;
+                & >img{
+                    position: relative;
+                    width: auto;
+                    top: 50%;
+                    left: 50%;
+                    margin: -24px 0 0 -20px;
+                }
+            }
+            & .popup-youtube{
+                perspective: 1000px;
+                @media screen and (max-width:768px) {
+                    perspective: none;
+                }
+                & >img {
+                    width: 100%;
+                    box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);transform: rotateY(20deg);
+                    transition: all .6s ease-out;
+                    @media screen and (max-width:768px) {
+                        transform: none;
+                    }
+                }
+            }
+        }
+        & :hover{
+            & .popup-youtube{
+                & >img{
+                    transform: rotateY(0);
+                    @media screen and (max-width:768px) {
+                    transform: none;
+                }
+                }
+            }
+            & .playBnt{
+                        background: rgba(228, 0, 0, 0.6)
+                    }
+        }
+        
+        
+    }
+}
+@keyframes   
+    h3flow{
+    0% {left: 0;}
+    100% {left: -300%;}
+    }
+
+& .clip_part:nth-of-type(even) {
+    & h3{
+        text-align: right;
+        @media screen and (max-width:768px) {
+        text-align: center;
+        }
+    }
+    & .contentArea{
+        flex-direction: row-reverse;
+        @media screen and (max-width:768px) {
+            flex-direction: column;
+        }
+        & .imgPart{
+            & .popup-youtube{
+                & >img{
+                    transform: rotateY(-20deg);
+                    @media screen and (max-width:768px) {
+                        transform: none;
+                    }
+                }
+            }
+        }
+        & :hover{
+            & .popup-youtube{
+                & >img{
+                    transform: rotateY(0);
+                    @media screen and (max-width:768px) {
+                        transform: none;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:640px) {
+    .subTitle {
+        font-size: 2rem
+    }
+}
+
+@media screen and (max-width:480px) {
+    .clip_part .playBnt {
+        width: 95px;
+        height: 95px;
+        margin: -48px 0 0 -48px
+    }
+    .clip_part .contentArea {
+        width: auto
+    }
+}
