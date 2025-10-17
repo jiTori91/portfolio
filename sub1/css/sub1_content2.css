@@ -1,0 +1,51 @@
+/* 브랜드 스토리 콘텐츠 */
+#content .content_area{
+    width: 100%; margin: 0 auto;
+    padding-bottom: 150px;
+}
+#content .content_area ul{
+    width: 100%;
+    list-style: none; 
+    display: flex; justify-content: space-evenly;
+    
+}
+#content .content_area ul li{
+    display: flex; align-items: center; flex-direction: column; gap: 90px;
+    text-align: center;
+    width:550px;
+    
+}
+#content .content_area ul li img{
+    transition: all 0.1s cubic-bezier(0.25, 0.25, 0.75, 0.75);
+}
+#content .content_area ul li img:hover{
+    transform: scale(1.05);
+}
+#content .content_area ul li:nth-of-type(2) dl span{
+    display: inline-block;
+    margin-bottom: 5px;
+    
+}
+#content .content_area ul li dl{
+   
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.3);
+}
+#content .content_area ul li dl dt{
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+#content .content_area ul li dl dt span{
+    font-size: 1.5rem;
+    color: var(--font-color-point2);
+   
+}
+#content .content_area ul li dl dd{
+    font-size: 1.25rem;
+    margin-top: 60px;
+    position: relative;
+    text-align: justify;
+    position: relative;
+    line-height: 150%;
+}

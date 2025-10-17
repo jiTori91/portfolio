@@ -1,0 +1,435 @@
+#content .content_area{
+    width: 100%; margin: 0 auto;
+}
+
+#content .content_area .sub6_2Tt{
+    font-size: 6rem;
+    position: relative;
+    font-weight: 900;
+    z-index: 0;
+}
+#content .content_area .sub6_2Tt .shlineBg1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 900px;
+    height: 97px;
+    background: var(--font-color-sub);
+    z-index: 0;
+}
+
+#content .content_area .sub6_2Tt .shLine1,
+#content .content_area .sub6_2Tt .shLine2 {
+  position: relative;
+  display: block;
+  color: transparent; /* 텍스트 숨기고 가상요소로 처리 */
+  z-index: 2;
+  line-height: 6rem;
+}
+#content .content_area .sub6_2Tt .shLine1::after{
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    top: -48px;
+    color: var(--font-color-sub);
+    clip-path: inset(0 0 50% 0); /* 위쪽 절반만 */
+    z-index: 2; 
+    display: block;
+  
+}
+#content .content_area .sub6_2Tt .shLine1::before{
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    top: -48px;
+    color: #fff;
+    clip-path: inset(50% 0 0 0); /* 아래쪽 절반만 */
+    z-index: 1;
+    display: block;
+}
+#content .content_area .sub6_2Tt .shLine2::after{
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    top: -48px;
+    color: #fff;
+    clip-path: inset(0 0 50% 0); /* 위쪽 절반만 */
+    z-index: 2;
+}
+#content .content_area .sub6_2Tt .shLine2::before{
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    top: -48px;
+    color: var(--font-color-sub);
+    clip-path: inset(50% 0 0 0); /* 아래쪽 절반만 */
+    z-index: 1;
+}
+
+  /* 예술dt */
+  #content .content_area .sub6_2Tt .shlineBg2 {
+    position: absolute;
+    top: 37px;
+    left: 0px;
+    width: 700px;
+    height: 97px;
+    background: var(--font-color-sub);
+    z-index: 0;
+}
+#content .content_area .sub6_2Tt .shLine3,
+#content .content_area .sub6_2Tt .shLine4 {
+  position: relative;
+  display: block;
+  color: transparent; /* 텍스트 숨기고 가상요소로 처리 */
+  z-index: 2;
+  line-height: 6rem;
+}
+#content .content_area .sub6_2Tt .shLine3::after{
+    content: attr(data-text);
+    position: absolute;
+    /* left: 85px; */
+    right: 0;
+    top: -11px;
+    color: var(--font-color-sub);
+    clip-path: inset(0 0 50% 0); /* 위쪽 절반만 */
+    z-index: 2; 
+    display: block;
+  
+}
+  #content .content_area .sub6_2Tt .shLine3::before{
+    content: attr(data-text);
+    position: absolute;
+    /* left: 85px; */
+    right: 0;
+    top: -11px;
+    color: #fff;
+    clip-path: inset(50% 0 0 0); /* 아래쪽 절반만 */
+    z-index: 1;
+    display: block;
+}
+  #content .content_area .sub6_2Tt .shLine4::after{
+    content: attr(data-text);
+    position: absolute;
+    /* left: 85px; */
+    right: 0;
+    top: -10px;
+    color: #fff;
+    clip-path: inset(0 0 50% 0); /* 위쪽 절반만 */
+    z-index: 2;
+}
+  #content .content_area .sub6_2Tt .shLine4::before{
+    content: attr(data-text);
+    position: absolute;
+    /* left: 85px; */
+    right: 0;
+    top: -10px;
+    color: var(--font-color-sub);
+    clip-path: inset(50% 0 0 0); /* 아래쪽 절반만 */
+    z-index: 1;
+    padding-bottom: 3px;
+}
+
+
+ /* 복합문화공간dt */
+  #content .content_area .sub6_2Tt .shlineBg3 {
+    position: absolute;
+    top: -24px;
+    left: 0px;
+    width: 700px;
+    height: 97px;
+    background: var(--font-color-sub);
+    z-index: 0;
+}
+#content .content_area .sub6_2Tt .shLine5,
+#content .content_area .sub6_2Tt .shLine6 {
+  position: relative;
+  display: block;
+  color: transparent; /* 텍스트 숨기고 가상요소로 처리 */
+  z-index: 2;
+  line-height: 6rem;
+}
+#content .content_area .sub6_2Tt .shLine5::after{
+    content: attr(data-text);
+    position: absolute;
+    left: 0px;
+    top: -72px;
+    color: var(--font-color-sub);
+    clip-path: inset(0 0 50% 0); /* 위쪽 절반만 */
+    z-index: 2;
+    display: block;
+  
+}
+  #content .content_area .sub6_2Tt .shLine5::before{
+    content: attr(data-text);
+    position: absolute;
+    left: 0px;
+    top: -71px;
+    color: #fff;
+    clip-path: inset(50% 0 0 0); /* 아래쪽 절반만 */
+    z-index: 1;
+    display: block;
+}
+  #content .content_area .sub6_2Tt .shLine6::after{
+    content: attr(data-text);
+    position: absolute;
+    left: 0px;
+    top: -71px;
+    color: #fff;
+    clip-path: inset(0 0 50% 0); /* 위쪽 절반만 */
+    z-index: 2;
+}
+  #content .content_area .sub6_2Tt .shLine6::before{
+    content: attr(data-text);
+    position: absolute;
+    left: 0px;
+    top: -72px;
+    color: var(--font-color-sub);
+    clip-path: inset(50% 0 0 0); /* 아래쪽 절반만 */
+    z-index: 1;
+    padding-bottom: 4px;
+}
+
+ /* 롯데뮤지엄dt */
+  #content .content_area .sub6_2Tt .shlineBg4 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 900px;
+    height: 97px;
+    background: var(--font-color-sub);
+    z-index: 0;
+}
+#content .content_area .sub6_2Tt .shLine7,
+#content .content_area .sub6_2Tt .shLine8 {
+  position: relative;
+  display: block;
+  color: transparent; /* 텍스트 숨기고 가상요소로 처리 */
+  z-index: 2;
+  line-height: 6rem;
+}
+#content .content_area .sub6_2Tt .shLine7::after{
+    content: attr(data-text);
+    position: absolute;
+    right: 0;
+    top: -48px;
+    color: var(--font-color-sub);
+    clip-path: inset(0 0 50% 0); /* 위쪽 절반만 */
+    z-index: 2;
+    display: block;
+  
+}
+  #content .content_area .sub6_2Tt .shLine7::before{
+    content: attr(data-text);
+    position: absolute;
+    right: 0;
+    top: -48px;
+    color: #fff;
+    clip-path: inset(50% 0 0 0); /* 아래쪽 절반만 */
+    z-index: 1;
+    display: block;
+}
+  #content .content_area .sub6_2Tt .shLine8::after{
+    content: attr(data-text);
+    position: absolute;
+    right: 0;
+    top: -48px;
+    color: #fff;
+    clip-path: inset(0 0 50% 0); /* 위쪽 절반만 */
+    z-index: 2;
+}
+  #content .content_area .sub6_2Tt .shLine8::before{
+    content: attr(data-text);
+    position: absolute;
+    right: 0;
+    top: -48px;
+    color: var(--font-color-sub);
+    clip-path: inset(50% 0 0 0); /* 아래쪽 절반만 */
+    z-index: 1;
+    padding-bottom: 3px;
+}
+/* curved dt*/
+/* #content .content_area .sub6_2Tt .shlineBg5 {
+    position: absolute;
+    top: -25px;
+    left: 0px;
+    width: 1100px;
+    height: 150px;
+    background: var(--font-color-sub);
+    z-index: 0;
+}
+#content .content_area .sub6_2Tt .shLine9{
+  position: relative;
+  display: block;
+  color: transparent; 
+  z-index: 2;
+  line-height: 6rem;
+}
+#content .content_area .sub6_2Tt .shLine9::after{
+    content: attr(data-text);
+    position: absolute;
+    left: 10px;
+    top: 0;
+    color: var(--font-color-sub);
+   z-index: -2;
+    display: block;
+  
+}
+  #content .content_area .sub6_2Tt .shLine9::before{
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #fff;
+    z-index: 1;
+    display: block;
+} */
+
+#content .content_area h3{
+  text-align: center;
+  font-size: 2rem;
+  margin: 100px 0 200px;
+}
+#content .content_area ul li img{
+  border-radius: 30px;
+}
+#content .content_area ul li dl dt{
+  margin-bottom: 50px;
+}
+#content .content_area ul li dl dd{
+  font-size: 1.4rem;
+  padding-bottom: 20px;
+  line-height: 2.5rem;
+
+}
+#content .content_area>ul li:nth-of-type(1){
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 400px;}
+
+
+
+#content .content_area ul li:nth-of-type(1) dl dt{
+  padding-bottom: 280px;
+}
+#content .content_area ul li:nth-of-type(1) dl dd{
+  width: 900px;
+  text-align: justify;
+  
+  
+}
+
+#content .content_area>ul li:nth-of-type(2){
+  display: flex; gap: 50px;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  margin-bottom: 150px;
+}
+
+#content .content_area ul li:nth-of-type(2) img{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .4);
+}
+#content .content_area ul li:nth-of-type(2) dl dd{
+  width: 700px;
+  text-align: justify;
+}
+#content .content_area ul li:nth-of-type(3){
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 50px;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 145px;
+}
+#content .content_area ul li:nth-of-type(3) img{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .4);
+}
+#content .content_area ul li:nth-of-type(4) img{
+  
+}
+#content .content_area ul li:nth-of-type(3) dl dd{
+  width: 700px;
+  text-align: justify;
+}
+#content .content_area ul li:nth-of-type(4){
+  display: flex; gap: 100px;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+#content .content_area ul li:nth-of-type(4) dl dt{
+  margin-bottom: 430px;
+}
+#content .content_area ul li:nth-of-type(4) dl dd{
+  width: 900px;
+  text-align: right; 
+}
+#content .content_area div{
+  text-align: center;
+  margin-bottom: 1000px;
+  position: relative;
+}
+#content .content_area div img{
+  position: absolute;
+  top: 0; left: 50%; transform: translateX(-50%);margin-left: -100px;
+  z-index: -1;
+}
+
+#content .content_area div{
+  position: relative;
+  text-align: center;
+}
+#content .content_area div p:nth-of-type(1){
+  font-size: 4rem;
+  text-align:justify;
+  position: absolute; top: 10px; left: 50%; transform: translateX(-50%); margin-left: -550px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  width: 600px;
+  color: var(--font-color-sub);
+    display: flex; flex-direction: column;  
+}
+#content .content_area div p:nth-of-type(1) span:nth-of-type(2){
+  padding-left: 80px;
+}
+#content .content_area div p:nth-of-type(1) span:nth-of-type(3){
+  padding-left: 160px;
+}
+#content .content_area div p:nth-of-type(1) strong{
+  font-size: 5rem;
+  font-weight: 600;
+  
+}
+#content .content_area div p:nth-of-type(2){
+  position: absolute;
+  top: 500px; left: 50%; transform: translateX(-50%); margin-left: -450px;
+  font-size: 1.8rem;
+  padding: 10px 30px;
+  color: #fff;
+  background: var(--font-color-sub);
+}
+
+#content .content_area .sub6_cont2Bottom{
+  text-align: justify;
+  color: #fff;
+  font-size: 1.3rem;
+  overflow: hidden;
+}
+#content .content_area div .sub6_cont2Bottom li:nth-of-type(1){
+  position: absolute; top: 275px; right: 50%; margin-right: -920px;
+  background: var(--font-color-sub);
+  width: 500px;
+  padding: 20px;
+  line-height: 2.1rem;
+}
+#content .content_area div .sub6_cont2Bottom li:nth-of-type(2){
+  position: absolute; top: 600px; left: 50%; transform: translateX(-50%); margin-left: 250px;
+  width: 500px;
+  padding: 20px;
+  background: var(--font-color-sub);
+  line-height: 2.1rem;
+}
+
+
+

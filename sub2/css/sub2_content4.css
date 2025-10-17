@@ -1,0 +1,201 @@
+/* 국제 오르간 콩쿨 콘텐츠 */
+#content .content_area{
+    width: 100%; margin: 0 auto;
+    
+}
+/* 서브2-4 탭버튼 */
+
+#content .content_area>img{
+   position: relative; left: 50%; top: 0;
+   transform: translateX(-50%);
+}
+
+#content .content_area .sub2_4_tap{
+    display: flex;
+    justify-content: center; gap: 5px;
+    margin-bottom: 100px;
+    
+}
+#content .content_area .sub2_4_tap li a{
+    background: #fff;
+    color: var(--font-color-point2);
+    border: 2px solid var(--font-color-point2);
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-radius: 12px;
+    display:block;
+}
+
+#content .content_area .sub2_4_tap li a.current{
+    color: #fff;
+    background: var(--font-color-point2);
+}
+
+
+#content .content_area .sub2_cont4 {display: none;}
+#content .content_area .sub2_content4Tap1{
+    background: url(../images/content4/sub2_content4_BgLine.svg)no-repeat center center;
+    background-size: auto;
+
+    
+}
+#content .content_area .sub2_cont4All{
+    display: none;
+}
+#content .content_area .sub2_content4Tap1 h3{
+    position: relative;
+    text-align: center;
+    font-size: var(--font-size-h3);
+   
+}
+/* #content .content_area .sub2_content4Tap1 h3::before,
+#content .content_area .sub2_content4Tap1 h3::after{
+    content: '';
+    position: absolute; top: 50%;
+    width: 35%; height: 1px; background-color: var(--font-color-point2);
+    right: 0; transform: translateY(-50%);
+} */
+#content .content_area .sub2_content4Tap1 h3::before{
+    left: 0; transform: translateY(-50%);
+}
+
+#content .content_area .sub2_content4Tap1 .sub2_content4top{
+   display: flex; 
+   align-items: center;  
+   justify-content:center; 
+   gap: 150px;
+   margin-top: 200px;
+   margin-bottom: 200px;
+   
+}
+#content .content_area .sub2_content4Tap1 img{
+    border-radius: 50%;
+    margin-bottom: 200px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .2);
+    
+}
+#content .content_area .sub2_content4Tap1 ul{
+    width: 780px;
+    text-align: justify;
+}
+#content .content_area .sub2_content4Tap1 ul li{
+    padding-bottom: 20px;
+}
+#content .content_area .sub2_content4Tap1 ul li:first-of-type{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+#content .content_area .sub2_content4Tap1 .sub2_content4top ul li:nth-last-child(1){
+    text-align: right;
+    padding-top: 100px;
+}
+#content .content_area .sub2_content4Tap1 ul li:nth-last-child(1) span:nth-of-type(1){
+   font-size: 1.2rem;
+  
+}
+#content .content_area .sub2_content4Tap1 ul li:nth-last-child(1) span:nth-of-type(2){
+    font-size: 1.6rem;
+    font-weight: 600;
+   
+}
+
+#content .content_area .sub2_content4Tap1 .sub2_content4top ul .sub2_4_bottomname::before{
+    content: '';
+    position: relative; top: 22px; left: -50%; margin-left: -90px;
+    width: 1145px; height: 1px; background-color: var(--font-color-point2);
+    display: block;
+}
+#content .content_area .sub2_content4Tap1 .sub2_content4bottom ul .sub2_4_bottomname::before{
+    content: '';
+    position: relative; top: 22px; left: -50%; margin-left: 505px;
+    width: 1145px; height: 1px; background-color: var(--font-color-point2);
+    display: block;
+}
+
+
+#content .content_area .sub2_content4Tap1 .sub2_content4bottom{
+    display: flex; 
+    align-items: center;  
+    justify-content:center; 
+    flex-direction: row-reverse; 
+    gap: 150px;
+    padding-bottom: 500px;
+}
+#content .content_area .sub2_content4Tap1 .sub2_content4bottom ul li:nth-last-child(1){
+    padding-top: 100px;
+}
+
+
+/* 탭2 */
+#content .content_area .sub2_content4Tap2{
+background: url(../images/content4/sub2_content4_BgLinetap2.svg)no-repeat center center;
+background-size: auto;}
+
+
+#content .content_area .sub2_content4Tap2 h3{
+    position: relative;
+    text-align: center;
+    font-size: var(--font-size-h3);
+    
+}
+#content .content_area .sub2_content4Tap2 div{
+    display: flex; 
+    justify-content: center;
+    gap: 20px;
+    padding: 200px 0 500px;
+}
+#content .content_area .sub2_content4Tap2 ul{
+    display: flex; gap: 15px;
+    flex-direction: column;
+    justify-content:space-between;
+    border-radius:  0 0 30px 30px;
+    background: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .2);
+    width: 400px;
+   
+}
+
+#content .content_area .sub2_content4Tap2 ul li:nth-of-type(2){
+    display: inline-flex; gap: 17px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#content .content_area .sub2_content4Tap2 ul li:nth-of-type(2) span{
+    width: 300px;
+    display: inline-block;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 110%;
+}
+#content .content_area .sub2_content4Tap2 ul li:nth-of-type(3){
+    text-align: right;
+    padding: 50px 20px 20px;
+    color: #666;
+}
+#content .content_area .sub2_content4Tap2 ul li strong{
+    padding: 4px 10px; background: var(--font-color-point1);
+    font-size: 1.13rem;
+    border-radius: 7px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    
+}
+#content .content_area .sub2_content4Tap2 ul:nth-of-type(3) li strong,
+#content .content_area .sub2_content4Tap2 ul:nth-of-type(4) li strong{
+    background: var(--font-color-point2);
+}
+
+
+
+
+
+
+
+
+
+

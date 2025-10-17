@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotte Concert Hall-오시는길</title>
+    <link rel="shortcut icon" type="image/x-icon"  href="../fcon.ico">
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon" />
+    <link rel="stylesheet" href="./common/css/sub3common.css">
+    <link rel="stylesheet" href="./css/sub3_content2.css">
+   
+    <!-- <style>
+        *{margin: 0; padding: 0;}
+        #map{width: 1200px; margin: 50px auto;
+            height: 600px;
+            border: 2px solid salmon;}
+    </style>-->
+    <script src="https://kit.fontawesome.com/7b0bba4102.js" crossorigin="anonymous"></script>
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=5e1fc2a612665ac5fa78ee0d71487bd4"></script>
+    <script src="./js/map_one.js"></script> 
+</head>
+<body>
+   
+    <div id="skipNav">
+        <a href="#content">본문 바로가기</a>
+        <a href="#gnb">글로벌 네비게이션 바로가기</a>
+    </div>
+    
+    <div id="wrap">
+        <!-- 헤더 -->
+        <? include "../common/sub_header.html" ?>
+
+         <!-- 검색팝업 -->
+         <div class="total_search_box">
+            <strong><i class="fa-solid fa-magnifying-glass"></i>공연 검색</strong>
+            <label for="total_title">공연이름검색</label>
+            <input id="total_title" type="text" placeholder="클래식" list="total_searchList"/>
+            <button id="total_btn" type="button">검색</button>
+    
+            <datalist id="total_searchList">
+                <option value="SM 클래식 라이브 2025 in SEOUL"></option>
+                <option value="림스키코르사코프 &#39;셰네라자드&#39;"></option>
+                <option value="윤한결의 모차르트와 슈트라우스"></option>
+                <option value="얍 판 츠베덴과 박재홍"></option>
+                <option value="시벨리우스 특별 콘서트"></option>
+                <option value="얍 판 츠베덴과 이매뉴얼 액스"></option>
+                <option value="브랜든리 뮤지컬 컬렉션 콘서트"></option>
+                <option value="사카모토 류이치 트리뷰트 콘서트"></option>
+                <option value="스티븐 허프 피아노 협주곡"></option>
+            </datalist>
+        </div>
+
+         <!-- 비주얼 -->
+         <div class="visual">
+            <strong>이용안내</strong>
+         </div>
+
+         <div class="sub_nav">
+            <ul>
+                <li><a href="./sub3_1.html">시설안내</a></li> 
+                <li><a href="./sub3_2.html" class="current">오시는길</a></li>
+            </ul>
+         </div>
+         <!-- 콘텐즈 -->
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    <ul>
+                        <li><a href="../index.html"><span class="material-symbols-outlined">home</span></a>
+                        </li>
+                        <li><span class="material-symbols-outlined">
+                            arrow_forward_ios
+                            </span>
+                        </li>
+                        <li><a href="/sub3/sub3_1.html">이용안내</a>
+                        </li>
+                        <li><span class="material-symbols-outlined">
+                            arrow_forward_ios
+                            </span>
+                        </li>
+                        <li><a href="/sub3/sub3_2.html"><strong>오시는길</strong></a>
+                        </li>
+                    </ul>
+                </div>
+                <h2>오시는 길</h2>
+                <p>오시는 길 및 대중교통 이용 방법을 안내해드립니다</p>
+            </div>
+            <div class="content_area">
+                <h3><span class="material-symbols-outlined">
+                    arrow_forward_ios
+                    </span>
+                    찾아오시는 길
+                </h3>
+                <ul>
+                    <li><address>서울특별시 송파구 올림픽로300 롯데월드몰 8층 롯데문화재단</address></li>
+                    <li><a href="tel:1544-7744">대표전화 &#58; 1544&#45;7744</a></li>
+                    <li>FAX &#58; 02&#45;6234&#45;3140</li>
+                </ul>
+                <div id="map"></div>
+                <div class="sub3_2Subway">
+                   
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th rowspan="2">
+                                    <span class="material-symbols-outlined">
+                                    directions_subway</span>
+                                    지하철
+                                </th>
+                                <td><span>2</span></td>
+                                <td>2호선 잠실역</td>
+                                <td>1번출구와 2번출구사이 롯데월드몰 입구로 진입</td>
+                            </tr>
+                            <tr>
+                                
+                                <td><span>8</span></td>
+                                <td>8호선 잠실역(송파구청)</td>
+                                <td>10번출구와 11번출구 방향(쇼핑몰 17GATE/18GATE)로 진입</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+               <div class="sub3_2Bus">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th rowspan="4">
+                                    <span class="material-symbols-outlined">
+                                    directions_bus</span>
+                                    버스
+                                </th>
+                                <td><span>간선</span></td>
+                                <td>301, 302, 303, 320, 341, 351, 352, 360, 362
+
+                                </td>
+                            </tr>
+                            <tr>                          
+                                <td><span>지선</span></td>
+                                <td>2311, 2412, 2415, 3216, 3217, 3313, 3314, 3315, 3317 <br>
+                                    3318, 3319, 3411, 3412, 3413, 3414, 4318, 4319
+                                </td>
+                            </tr>
+                            <tr>                          
+                                <td><span>광역</span></td>
+                                <td>500-1, 1000, 1001, 1007-1, 1009, 1100, 1112, 1115-6, 1117, 1200, 1650, 1670 <br>
+                                    1700, 2000, 5600, 5700, 6900, 7007, 8001, 8002, 8012, 9005, 9403, M2316
+                                </td>
+                            </tr>
+                            <tr>                          
+                                <td><span>공항</span></td>
+                                <td>6000, 6006, 6705, 6706A
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+               </div>
+                    
+               
+                
+                
+            </div>
+        </article>
+        <!-- 푸터 -->
+        <? include "../common/sub_footer.html" ?>
+
+
+
+    </div>
+
+
+<script src="../common/js/jquery-1.12.4.min.js"></script>
+<script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+<script src="../common/js/fullnav.js"></script>
+<script src="../common/js/sub_search.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+/* 공통 비주얼 영역 */
+.visual{
+    position: relative; top: 0; left: 50%; transform: translateX(-50%);
+    width: 2000px; height: 400px; margin-top: 180px;
+    background: url(../images/sub2_1_visualSize.jpg)
+}
+.visual strong{
+    font-size: 2rem; color: #fff;
+    font-weight: 600;
+    position: absolute; width: 100%; left: 0; top: 50%;
+    display: block;
+    text-align: center;}
+/* 서브메뉴영역 */
+.sub_nav{border-bottom: 1px solid #ccc;}
+.sub_nav ul{
+    width: 1400px; margin: 0 auto;
+    display: flex; gap: 20px;
+}
+.sub_nav ul li{
+    width: 25%; box-sizing: border-box;
+    text-align: center;
+}
+.sub_nav ul li a{
+    font-size: 1.2rem; font-weight: 600;
+    padding: 15px 0; border-radius: 30px;
+}
+.sub_nav ul li a:hover{
+    background: var(--font-color-point1); color: #fff; font-weight: 600;
+    transition: all .5s ease-out;
+}
+.sub_nav ul li a:hover, 
+.sub_nav ul li a.current{
+    background: var(--font-color-point1); color: #fff; font-weight: 600;
+}
+/* 콘텐츠 타이틀 영역 */
+#content{width: 100%;}
+#content .title_area{
+    width:100%; 
+    margin: 0 auto; 
+    padding: 150px 0 200px;
+    position: relative;
+}
+#content .title_area h2{
+    font-size: 60px; font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+#content .title_area h2::after{
+    content: ''; position: absolute; left: 50%; top: 190px; transform: translateX(-50%);
+    display: block;
+    width: 2px; height: 100px;
+    background: var(--font-color-point2);
+}
+#content .title_area p{font-size: 24px; text-align: center;
+    font-weight: 500;
+}
+#content .title_area .line_map{position: relative;}
+#content .title_area .line_map ul{
+    display: flex; gap: 15px;
+    align-items: center;
+    position: absolute; top: -360px; left: 50%; transform: translateX(-50%);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+}
+#content .title_area .line_map ul li{}
+#content .title_area .line_map ul li a{
+    color: #fff;
+}
+
+#content .title_area .line_map ul li:nth-of-type(even) span{
+    color: #fff;
+    font-size: 15px;
+}
+#content .title_area .line_map ul li:nth-of-type(1) a span{
+    position: relative; top: 3px;
+}
+#content .title_area .line_map ul li:nth-of-type(5) a strong{
+    font-weight: 600;
+}

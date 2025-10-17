@@ -1,0 +1,85 @@
+
+/* *{margin: 0; padding: 0;} */
+#content .content_area {
+    width: 1600px; margin: 50px auto;
+    overflow: hidden;
+}
+
+#content .content_area img{
+    float: left;
+    margin: 20px;
+}
+#content .content_area ul{
+    float: left;
+    width: 700px;
+    text-align: justify;
+}
+#content .content_area ul li dl dt:nth-of-type(1){
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+#content .content_area ul li dl dt:nth-of-type(1) span{
+   font-variation-settings: 'wght'700;
+   margin-right: 30px;
+   width: 30px; height: 30px;
+   color: var(--font-color-point1);
+
+}
+#content .content_area ul li{
+    margin-bottom: 40px;
+}
+#content .content_area ul li dl{
+    
+}
+#content .content_area ul li dt{
+    padding-bottom: 20px;
+}
+#content .content_area ul li dd{
+    margin-left: 60px;
+    text-align: justify;
+}
+#content .content_area ul li:nth-of-type(2) dl:nth-of-type(2),
+#content .content_area ul li:nth-of-type(2) dl:nth-of-type(3){
+    margin-top: 15px;
+    overflow: hidden;
+}
+#content .content_area ul li:nth-of-type(2) dl:nth-of-type(2) dt,
+#content .content_area ul li:nth-of-type(2) dl:nth-of-type(3) dt{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px 0;
+    text-align: start;
+    margin-left: 80px;
+    position: relative;
+}
+#content .content_area ul li:nth-of-type(2) dl:nth-of-type(2) dt::after,
+#content .content_area ul li:nth-of-type(2) dl:nth-of-type(3) dt::after{
+    content: ''; background: var(--font-color-point1); width: 10px; height: 3px;
+    position: absolute; top: 23px; left: -20px;
+}
+#content .content_area ul li:nth-of-type(2) dl:nth-of-type(2) dd,
+#content .content_area ul li:nth-of-type(2) dl:nth-of-type(3) dd{
+    padding-bottom: 10px;
+    width: 550px;
+    padding-left: 25px;
+}
+#content .content_area ul li:nth-of-type(2) dl:nth-of-type(2){
+    position: relative;
+}
+
+#content .content_area ul li:nth-of-type(2) dl:nth-of-type(2) dd:first-of-type::after{
+    content: ''; background: var(--font-color-point2); width: 1px; height: 17px;
+    position: absolute;  left: 134px;
+    top: 53px;
+}
+#content .content_area ul li:nth-of-type(2) dl:nth-of-type(2) dd:last-child:after{
+    content: ''; background: var(--font-color-point2); width: 1px; height: 17px;
+    position: absolute; left: 134px;
+    top: 87px;
+}
+
+
+ 
+
+

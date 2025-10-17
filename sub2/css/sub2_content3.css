@@ -1,0 +1,133 @@
+/* BI소개 콘텐츠 */
+#content .content_area{
+    width: 1400px; margin: 0 auto;
+    padding-bottom: 150px;
+}
+#content .content_area .sub2_content3{
+    overflow: hidden;
+    margin-bottom: 100px; margin-top: 100px;
+}
+#content .content_area .sub2_content3 ul{
+    float: left;
+    text-align: center;
+}
+#content .content_area .sub2_content3 ul li{
+    width: 300px; height: 300px;
+    display: flex; justify-content: center; flex-direction: column;
+}
+#content .content_area .sub2_content3 ul li span{
+    font-size: 1.8rem;
+    font-weight: 500;
+    
+    color: #fff;
+}
+#content .content_area .sub2_content3 ul li span:nth-of-type(2){}
+#content .content_area .sub2_content3 ul li span:nth-of-type(3){
+    line-height: 20px
+}
+
+#content .content_area .sub2_content3 ul li .material-symbols-outlined{
+    font-size: 70px;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 500,
+    'GRAD' 0
+}
+#content .content_area .sub2_content3 ul:nth-of-type(1){
+    margin-bottom: 10px;
+}
+#content .content_area .sub2_content3 ul:nth-of-type(1) li{
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, .2);
+    margin-left: 10px; 
+}
+#content .content_area .sub2_content3 ul:nth-of-type(1) li:nth-of-type(1){
+    background: var(--font-color-point2);
+    border-radius: 50px 50px 0 50px;
+}
+#content .content_area .sub2_content3 ul:nth-of-type(1) li:nth-of-type(2){
+    background: var(--font-color-point1);
+    border-radius: 50px 0 50px 50px;
+}
+#content .content_area .sub2_content3 ul:nth-of-type(2) li{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .2);
+    margin-right: 10px;
+}
+#content .content_area .sub2_content3 ul:nth-of-type(2) li:nth-of-type(1){
+    background: var( --font-color-main);
+    border-radius: 50px 50px 50px 0;
+}
+#content .content_area .sub2_content3 ul:nth-of-type(2) li:nth-of-type(2){
+    background: var(--font-color-sub);
+    border-radius: 0 50px 50px 50px;
+}
+
+#content .content_area .sub2_content3 div{
+    float: right;
+    width: 650px;
+}
+#content .content_area .sub2_content3 div dl dt{
+    font-size: 1.5rem; font-weight: 500;
+    padding-bottom: 20px;
+    position: relative;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
+
+}
+
+#content .content_area .sub2_content3 div dl:nth-of-type(1) dt::after{
+    content: ''; width: 155px; height: 20px; background: var(--font-color1); display: block;
+    position: absolute; top: 3px; left: 10px; z-index: -1;
+}
+#content .content_area .sub2_content3 div dl:nth-of-type(2) dt::after{
+    content: ''; width: 211px; height: 20px; background: var(--font-color1); display: block;
+    position: absolute; top: 3px; left: 10px; z-index: -1;
+}
+#content .content_area .sub2_content3 div dl:nth-of-type(3) dt::after{
+    content: ''; width: 131px; height: 20px; background: var(--font-color1); display: block;
+    position: absolute; top: 3px; left: 10px; z-index: -1;
+}
+#content .content_area .sub2_content3 div dl dd{
+    font-size: 1.22rem; line-height: 150%;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
+#content .content_area .sub2_content3_bottom{
+    overflow: hidden;
+   display: flex; gap: 150px; justify-content: center;
+}
+#content .content_area .sub2_content3_bottom .bottom_left{
+    width: 546px;
+    float: left;
+}
+#content .content_area .sub2_content3_bottom .bottom_right img{
+    margin-bottom: 30px;    
+}
+#content .content_area .sub2_content3_bottom .bottom_left ul{
+    display: flex; flex-direction: column; gap: 30px;
+}
+#content .content_area .sub2_content3_bottom .bottom_right{
+    float: right;
+    overflow: hidden;
+    width: 546px;
+    
+}
+#content .content_area .sub2_content3_bottom .bottom_right ul:nth-of-type(1){
+    float: left;
+}
+#content .content_area .sub2_content3_bottom .bottom_right ul:nth-of-type(2){
+    float: right;
+}
+#content .content_area .sub2_content3_bottom p{
+    font-size: 1.5rem; font-weight: 500;
+    padding-bottom: 20px;
+    position: relative;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
+}
+#content .content_area .sub2_content3_bottom .bottom_left p::after{
+    content: ''; width: 125px; height: 20px; background: var(--font-color1); display: block;
+    position: absolute; top: 0px; left: 10px; z-index: -1;
+}
+#content .content_area .sub2_content3_bottom .bottom_right p:after{
+    content: ''; width: 100px; height: 20px; background: var(--font-color1); display: block;
+    position: absolute; top: 3px; left: 10px; z-index: -1;
+}

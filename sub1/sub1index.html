@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>롯데콘서트홀</title>
+    <link rel="stylesheet" href="./css/sub1index.css">
+</head>
+<body>
+   
+<h1><a href="./index.html">롯데콘서트홀</a></h1>    
+<div class="product">
+    <h3>공연 검색</h3>  
+    <div class="search_box">
+        <label for="title">공연이름검색</label>
+        <input id="title" type="text" placeholder="&#91;2025LOF&#93;" list="searchList"/>
+        <button id="total_btn" type="button">검색</button>
+    </div>
+    <datalist id="searchList">
+      <option value="SM CLASSICS LIVE 2025 in SEOUL"></option>
+      <option value="림스키코르사코프 &#39;셰네라자드&#39;"></option>
+      <option value="윤한결의 모차르트와 슈트라우스"></option>
+      <option value="얍 판 츠베덴과 박재홍"></option>
+      <option value="시벨리우스 특별 콘서트"></option>
+      <option value="얍 판 츠베덴과 이매뉴얼 액스"></option>
+      <option value="브랜든리 뮤지컬 컬렉션 콘서트"></option>
+      <option value="사카모토 류이치 트리뷰트 콘서트"></option>
+      <option value="스티븐 허프 피아노 협주곡"></option>
+    </datalist>
+</div>
+<script src="./js/jquery-1.12.0.min.js"></script>
+<script>
+   $('#btn').click(function(){
+      var pname = $('#title').val();  //베이스
+      if(pname){  //검색어를 입력했으면...
+        location.href = './product.html?pname='+  pname;
+      }
+       else{   //검색어를 입력하지 않았다면...
+         alert('검색어를 입력하세요');
+       }
+   });
+ 
+</script>
+</body>
+</html>

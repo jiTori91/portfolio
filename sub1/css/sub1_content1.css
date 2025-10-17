@@ -1,0 +1,251 @@
+#content .content_area .product{width:1800px; margin: 50px auto;}
+
+#content .content_area .product .search_box{
+    width:700px; 
+    margin: 20px auto 50px;
+}
+#content .content_area .product .search_box label{
+    font-size: 1.22rem;
+    font-weight: 500;
+    padding-right: 20px;
+}
+#content .content_area .product .search_box input{
+    font-size: 1.2rem;
+    padding:5px 10px; 
+    border: 0;
+    outline: none ;border-bottom: 1px solid var(--font-color-point2);
+    margin-right: 20px;
+}
+
+#content .content_area .product .search_box button{
+    width: 100px; 
+    padding: 5px 0; 
+    font-size: 1.2rem; 
+    border: 0; background: var(--font-color-point1); 
+    color: #fff; 
+    font-weight: 500; border-radius: 10px;
+}
+#content .content_area .product .search_box .btn_all{
+    background: var(--font-color-point2); box-sizing: border-box;
+}
+
+#content .content_area .product ul{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin: 10px;
+}
+#content .content_area .product li{
+    width: 800px; 
+    float: left; 
+    padding: 25px;
+    border-radius: 20px;
+    transition: all .2s ease-in-out;
+}
+#content .content_area .product li img{
+    float: left;
+    margin-right: 50px;
+}
+#content .content_area .product li:hover{
+   background: #f7f7f7;
+   scale: 1.01;
+}
+/* #content .content_area .product li a{
+    width: 230px; height: 325px;
+    float: left;
+    margin-right: 50px;
+} */
+#content .content_area .product li dt{
+    margin-right: 30px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+#content .content_area .product li dt:nth-of-type(2),
+#content .content_area .product li dt:nth-of-type(3){
+    float: left;
+}
+#content .content_area .product li dt:nth-of-type(1){
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 1.45rem;
+}
+#content .content_area .product li dd{
+    line-height: 1.5rem;
+    text-align: left;
+    overflow: hidden;
+}
+#content .content_area .product li dd:nth-of-type(1){
+    padding-bottom: 50px;
+}
+#content .content_area .product li dd:nth-of-type(2){
+    padding-bottom: 10px;
+}
+#content .content_area .product .modal_box{
+    position: fixed; 
+    width: 100%; height: 100%;
+    left:0; top:0; 
+    background: rgba(0,0,0,.8); 
+    display: none;
+    z-index: 110;
+}
+#content .content_area .product .modal_box .popup{
+    width:800px; 
+    position: absolute; left: 50%; top:50%; transform: translate(-50%, -50%);
+    background: #fff; text-align: center;
+    padding-bottom: 50px;
+    max-height: 90%; /* 브라우저 높이의 90%까지만 */
+    overflow-y: auto;
+    overflow-x:hidden;
+    
+    
+}
+#content .content_area .product .modal_box .popup img{
+    margin: 60px 0;
+    background: url(../images/content1/sub1_1Showday1.jpg);
+}
+
+#content .content_area .product .modal_box .popup p{
+    font-weight: bold; 
+    font-size: 1.43em; 
+}
+#content .content_area .product .modal_box .popup p:nth-of-type(1){
+    margin-bottom: -2px;
+}
+#content .content_area .product .modal_box .popup p:nth-of-type(2){
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+#content .content_area .product .modal_box .popup .close_pop{
+    position: absolute; top: 20px; left:355px;
+    text-align: center;width: 100%; color: #333; font-size: 1.5rem;
+    color: var(--font-color-point1);
+}
+
+/* #content .content_area .product .modal_box .popup .pop_con{
+    height: 900px;        
+    overflow-y: auto;     
+    padding-right: 20px;
+} */
+#content .content_area .product .modal_box .popup .pop_con div{
+    width: 500px;
+    margin: 0 auto;
+}
+#content .content_area .product .modal_box .popup .pop_con dl{
+   line-height: 1.22rem;
+   margin: 20px;
+   display: block;
+   clear: both;
+}
+#content .content_area .product .modal_box .popup .pop_con dt{
+    width: 100px;
+    text-align: left;
+    font-size: 1.22rem;
+    font-weight: 500;
+    float: left; 
+    margin-right: 20px;
+}
+
+#content .content_area .product .modal_box .popup .pop_con dd{
+    text-align: left;
+    overflow: hidden;
+    
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

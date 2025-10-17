@@ -1,0 +1,98 @@
+
+.content_area{
+    width:1200px; 
+    
+    margin: 0 auto;
+    margin-bottom: 100px;
+}  
+.content_area .hgroup{
+    position:relative;
+    margin:0 0 20px 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+}  
+
+.content_area .hgroup .all{
+    position:absolute; top:5px; right:10px; 
+    color:#333; text-decoration:none;
+}  
+.content_area ul{
+    margin:0;
+    padding:0;
+    list-style:none
+}  
+.content_area ul .fa-q{
+    background: var(--font-color-point2);
+    color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    margin-right: 50px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    line-height: 16px;
+    text-align: center;
+}
+.content_area ul .fa-a{
+    background: var(--font-color-point1);
+    color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    margin-right: 50px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    line-height: 16px;
+    text-align: center;
+}
+.content_area .q{
+    margin:0;
+    border-bottom:1px solid var(--font-color-point2);
+    position: relative;
+    
+    
+}  
+.content_area .q a.trigger{
+    display:block;
+    padding:10px 15px;
+    background:#fafafa;
+    color:var(--font-color2);
+    text-align:left;
+    text-decoration:none ;
+    font-weight: 500;
+}  
+.content_area .hide .q a.trigger{
+    font-weight:500;
+    background:none
+}  
+.content_area .q a.trigger:hover,  
+.content_area .q a.trigger:active,  
+.content_area .q a.trigger:focus{
+    background:#fafafa; color:var(--font-color2)
+} 
+.content_area .q span{
+    display: block; position: absolute; right: 15px; top:10px;
+} 
+.content_area .a{
+    margin:0;
+    padding:10px 15px;
+    line-height:1.5;
+    padding-bottom:30px; 
+    padding-top:10px;  
+    margin-top:0px; 
+    margin-bottom:0px; 
+    overflow: hidden;
+    display: none;
+} 
+.content_area .a i{
+    float: left;display: block;
+}
+.content_area .a span{
+    display: block;
+    margin-left: 86px; 
+    margin-right: 100px; 
+    text-align: justify;
+}
+
+
+
