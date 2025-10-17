@@ -1,0 +1,64 @@
+body{background-color: var(--font-color1); font-size: 1rem }
+h1 a{margin: 50px auto; display: block;  text-indent: -9999px; overflow: hidden;
+    background: url(../../images/common/lotte_Logox2.svg) center no-repeat;}
+#content{
+    
+    margin: 50px auto; 
+    background: #fff;
+    padding: 25px; 
+    font-weight: 500;
+}
+
+#content>span{
+    font-size: 1.5rem; 
+    font-weight: 700; 
+    position: relative; 
+    text-align: center;
+    display: block;
+    width: auto;
+}
+#content>p{
+    text-align: center;
+    color: #999; margin-top: 10px; font-weight: 400;
+}
+#content>p::before{content: '*'; color: var(--font-color-point1); margin-right: 5px;}
+
+#content form li{margin: 20px 0;}
+#content form li label{display: block; font-weight: 500; padding-left: 5px;}
+#content form li label::after{content: '*'; color: var(--font-color-point1);}
+#content form li span{color: var(--font-color-point1);}
+
+#content form li input{border: 1px solid #e1e1e1; width: 100%; height: 40px; margin-top: 5px;
+    border-radius: 5px; font-size: 1.1em; padding-left: 20px; box-sizing: border-box;}
+#content form li input#hp2, #content form li input#hp3{width: 33.4%;} 
+#content form li #hp1{width: 25%; height: 40px; padding-left: 10px; font-family: 'Noto Sans KR', sans-serif; font-size: 1.1em; border-radius: 5px;}
+#content form li input::placeholder{color: #ddd; font-weight: 300; font-size: .9em;} 
+
+#content form li input#mail1, #content form li input#mail2{width: 45.5%;}
+
+#content form li input:focus{outline-color: rgba(174, 155, 115, .4);}
+
+#content form li:last-child{margin-bottom: 70px;}
+#content .kaiinntouroku{display: flex; justify-content: center; gap: 10px;}
+#content input[type=submit]{
+    border: 0; background: var(--font-color-point2); 
+    color: #fff; 
+    background: var(--font-color-point1);
+    border-radius: 7px; font-size: 1.1rem;  cursor: pointer;
+    width: 160px;
+    height: 40px; 
+    box-sizing: border-box;
+}
+#content input[type=reset]{
+    display: inline-block;
+    border: 1px solid var(--font-color-point1);
+    border-radius: 7px;
+    width: 160px;
+    height: 40px;
+    color: var(--font-color-point1);
+    font-size: 1.15rem;
+    cursor: pointer;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: #fff;
+}

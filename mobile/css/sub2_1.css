@@ -1,0 +1,238 @@
+.visual{
+    background: url(../images/sub2_1/sub2_1_visualSize.jpg) no-repeat center center;
+    width:100%; height:200px;
+    background-size:cover;
+    position: relative;
+}
+.visual span{
+    display: block;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, .7);
+}
+.sub_nav{
+    width: 100%;
+    border-bottom: 1px solid #c1c1c1;
+}
+.sub_nav ul{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.sub_nav ul li{
+    width: 33.33%;
+}
+.sub_nav ul li a{
+    padding: 10px 0;
+    font-weight: 500;
+}
+.sub_nav li .current{
+    background: var(--font-color-point2);
+    color: #fff;
+    font-weight: 600;
+}
+#content .title_area h2{
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 100px 0 80px;
+    position: relative;
+}
+#content .title_area h2::before{
+content: ''; width: 12px; height: 12px; background: var(--font-color-point2);
+position: absolute; transform: rotate(45deg); border-radius: 2px;
+top: -27px; left: 50%; margin-left: -6px;
+}
+#content .title_area h2::after{
+content: ''; width: 12px; height: 12px; background: var(--font-color-point2);
+position: absolute; transform: rotate(45deg); border-radius: 2px;
+bottom: -34px; left: 50%; margin-left: -6px;
+}
+h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+    background: var(--font-color-point2);
+    color: #ffff;
+    padding: 5px 15px;
+    margin: 25px 0;
+    text-align: left;
+    margin-left: 10px;
+}
+img{
+    width: 95%;
+}
+.tab_title{
+    display: none;
+}
+#content h4 i{
+    font-size: 1.3rem;
+    padding-bottom: 6px;
+    padding-right: 10px;
+}
+
+.sub2_1TabButton{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.sub2_1TabButton li{
+    width: 33.33%;
+}
+
+.sub2_1TabButton li a{
+    color: var(--font-color-point2);
+    border-bottom: 1px solid var(--font-color-point2);
+    font-weight: 600;
+    padding: 5px 0;
+}
+.sub2_1TabButton li a.current{
+    background: #fff;
+    border-bottom: none;
+    border-top: 2px solid var(--font-color-point2);
+    border-right:  1px solid var(--font-color-point2);
+    border-left:  1px solid var(--font-color-point2);
+}
+
+
+
+.cont1 li dl{
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+.cont1 li dl dt{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 20px 0;
+}
+.cont1 li dl dd{
+    word-break: break-all;
+}
+.cont1 li dl dt span{
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 1.4rem;
+    font-style: italic;
+    letter-spacing: 2px;
+    color: var(--font-color-point2);
+}
+.cont1 li:first-child{
+    text-align: right;
+}
+.cont1 li:first-child dl{
+    text-align: left;
+}
+.cont1 li:first-child dd{
+    padding-right: 35px;
+    text-align: justify;
+    padding-bottom: 40px;
+    position: relative;
+    border-right: 2px solid var(--font-color-point2);
+    border-bottom: 2px solid var(--font-color-point2);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .1);
+}
+.cont1 li:last-child dl{
+    text-align: right;
+}
+.cont1 li:last-child dd{
+    padding-left: 35px;
+    text-align: left;
+    padding-bottom: 40px;
+    position: relative;
+    border-left: 2px solid var(--font-color-point2);
+    border-bottom: 2px solid var(--font-color-point2);
+    box-shadow: -3px 3px 5px rgba(0, 0, 0, .1);
+}
+.cont1 em{
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: var(--font-color-sub);
+}
+.cont1 strong{
+    display: inline-block;
+    padding: 10px 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.cont2{
+    text-align: center;
+}
+.cont2 ul{
+    margin: 20px 0;
+    width: 100%;
+    text-align: justify;
+    position: relative;
+}
+.cont2 img{
+    width: 90%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .2),
+                -2px -2px 5px rgba(0, 0, 0, .2);
+}
+.cont2 ul li{
+    padding: 10px 20px;
+    text-align: center;
+}
+.cont2 ul li:first-child{
+    font-size: 1.1rem;
+    border-top: 2px solid var(--font-color-point2);
+    border-bottom: 2px solid var(--font-color-point2);
+    margin: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.cont2 ul li:first-child span{
+    font-style: italic;
+    font-weight: 700;
+    color: var(--font-color-point2);
+    font-size: 1.4rem;
+}
+.cont3 li{
+    padding-bottom: 30px ;
+}
+.cont3 li:nth-of-type(1),
+.cont3 li:nth-of-type(3){
+    background: rgba(174, 155, 115, .3);
+}
+
+.cont3 li img{
+    width:100%; height:200px;
+    object-fit: cover;
+    object-position: center;
+}
+.cont3 li dl{
+    margin: 20px 20px 0 20px;
+    text-align: center;
+    position: relative;
+}
+.cont3 li dl dt{
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 10px 20px;
+    width: 100%;
+    position: absolute; top: -155px; left: -20px;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(1px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.cont3 li dl dt span{
+    font-size: 1.3rem;
+    font-style: italic;
+    color: var(--font-color-point2);
+    font-weight: 700;
+}
+.cont3 li dl dd{
+    text-align: justify;
+    padding: 10px 20px;
+    position: relative;
+}

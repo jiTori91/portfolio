@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "format-detection" content = "telephone=no">
+    <title>공연안내</title>
+    <link rel="apple-touch-icon-precomposed" href="./app_icon.png">
+    <link rel="apple-touch-startup-image" href="./startup.png">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/sub2_1.css">
+
+    <script src="https://kit.fontawesome.com/7b0bba4102.js" crossorigin="anonymous"></script>
+    <script>
+        // <![CDATA[
+        try {
+        window.addEventListener('load', function(){
+            setTimeout(scrollTo, 0, 0, 1); 
+        }, false);
+        } 
+        catch(e) {}
+        // ]]>
+    </script>
+</head>
+<body>
+    <div id="skipNav">
+        <a href="#content">본문바로가기</a>
+        <a href="#gnb">네비게이션바로가기</a>
+    </div>
+    
+    
+    <div id="wrap">
+        <header id="headerArea">
+            <h1><a href="./index.html">롯데콘서트홀 로고</a></h1>
+            <a href="#" class="menu_ham">
+            <span>메뉴</span>
+            </a>
+            <nav id="gnb">
+                <h2 class="hidden">글로벌네비게이션영역</h2>
+                <img src="./images/common/lotte_Logox1v1.svg" alt="롯데 콘서트홀 영문 로고 이미지">
+                <ul class="mainMenu">  
+                    <li class="depth1">
+                        <h3>
+                            <a href="#">공연안내<span class="material-symbols-outlined"> expand_more </span></a> 
+                        </h3>
+                        <ul>
+                            <li><a href="./sub1_1.html">공연안내</a></li>
+                            <li><a href="./sub1_2.html">예매안내</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                        <h3>
+                            <a href="#">롯데콘서트홀<span class="material-symbols-outlined">expand_more</span></a>            
+                        </h3>
+                        <ul>
+                            <li><a href="./sub2_1.html">공연장 소개</a></li>
+                            <li><a href="./sub2_2.html">브랜드 스토리</a></li>
+                            <li><a href="./sub2_3.html">대관시설안내</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                        <h3>
+                            <a href="#">이용안내<span class="material-symbols-outlined">expand_more</span></a>
+                        </h3>
+                        <ul>
+                            <li><a href="./sub3_1.html">장애인이용안내</a></li>
+                            <li><a href="./sub3_2.html">오시는 길</a></li>
+                            <li><a href="./sub3_3.html">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                        <h3>
+                            <a href="#">Lotte Culture<span class="material-symbols-outlined">expand_more</span></a>
+                        </h3>
+                        <ul>
+                            <li><a href="./sub4_1.html">롯데문화재단</a></li>
+                            <li><a href="./sub4_2.html">롯데뮤지엄</a></li>
+                            <li><a href="./sub4_3.html">롯데월드타워</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="gnb_login">
+                    <p><a href="./login/login.html">로그인</a></p>
+                    <p><a href="./member/member_check.html">회원가입</a></p>
+                </div>
+                <div class="sns">
+                    <a href="https://www.instagram.com/lotteconcerthall"><img src="./images/common/insta.png" alt="인스타그램 바로가기"></a>
+                    <a href="https://blog.naver.com/lotteconcerthall"><img src="./images/common/blog.png" alt="블로그 바로가기"></a>
+                    <a href="https://www.youtube.com/channel/UCCxcy7ryeUyT-hkKmPpPIkg"><img src="./images/common/youtube.png" alt="유튜브 바로가기"></a>
+                    <a href="https://pf.kakao.com/_PMxohxl"><img src="./images/common/kakao.png" alt="카카오톡 채널 바로가기"></a>
+                </div>
+                 <!-- 검색팝업 -->
+                 <div class="total_search_box">
+                    <label for="total_title">공연검색</label>
+                    <input id="total_title" type="text" placeholder="클래식" list="total_searchList"/>
+                    <button id="total_btn" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            
+                    <datalist id="total_searchList">
+                        <option value="SM 클래식 라이브 2025 in SEOUL"></option>
+                        <option value="림스키코르사코프 &#39;셰네라자드&#39;"></option>
+                        <option value="윤한결의 모차르트와 슈트라우스"></option>
+                    </datalist>
+                </div>
+           </nav>
+          
+        </header>
+       <div class="visual">
+            
+            <span>롯데콘서트홀</span>
+       </div>
+       <div class="sub_nav">
+            <ul>
+                <li><a href="./sub2_1.html" class="current">공연장소개</a></li> 
+                <li><a href="./sub2_2.html">브랜드스토리</a></li>
+                <li><a href="./sub2_2.html">대관시설안내</a></li>
+            </ul>
+        </div>
+       <article id="content">
+            <div class="title_area">
+                <h2>공연장 소개</h2>
+            </div>
+            <div class="content_area">
+                <ul class="sub2_1TabButton">
+                    <li>  
+                        <a href="#" class="current">
+                            SOUND
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            HALL
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            FACILITIES
+                        </a>
+                    </li>
+                </ul>
+                <div class="cont1 tab_title">
+                    <!-- <h4><i class="fa-solid fa-chevron-right"></i>음향</h4> -->
+                    <ul>
+                        <li>
+                            <img src="./images/sub2_1/sub2_1_intro1L.jpg" alt="콘서트홀 내부">
+                            <dl>
+                                <dt>
+                                    새로운 감동을 전하는 압도적인 음향 <br>
+                                    <span>&#8216;Nagata Acoustics&#8217;</span>
+                                </dt>
+                                
+                                <dd>롯데콘서트홀은 일본의 대표 클래식 공연장인 &#8216;산토리홀&#8217;과 미국의 &#8216;월트디즈니 콘서트홀&#8217;, 
+                                    프랑스의 &#8216;필하모니 드 파리&#8217; 등 세계적으로 호평 받는 공연장의 음향설계를 총괄한 <em>&#8216;나가타 어쿠스틱스&#8217;</em>가 맡아
+                                    세계적 수준의 음향을 구현해 내었습니다. <br>
+                                    최상의 음향을 위해 건축설계는 물론 무대마루의 구조, 조명 및 영상 장비의 소음 차단,
+                                    흡음률을 고려한 객석의자 제작 등 시설 부분까지도 세심하게 설계하였으며, 특히 나가타社의 핵심 컨설턴트인 &#8216;야스히사 토요타&#8217;가
+                                    1&#47;10 스케일 모델 테스트부터 최종 테스트까지 설계 및 시공의 전 과정에 참여하여 최상의 음향을 완성하였습니다.
+                                <strong>세계적인 음향의 장인들이 빚어낸 소리의 감동을 롯데콘서트홀에서 느껴 보시기 바랍니다.</strong>
+                                </dd>
+                            </dl>
+                        </li>
+                        
+                        <li>
+                            <img src="./images/sub2_1/sub2_1_intro1R.jpg" alt="콘서트홀 단면도">
+                            <dl>
+                                <dt>더욱 풍부한 음향을 위한 건축기술<br><span>&#8216;BOX-in-BOX&#8217;</span></dt>
+                                
+                                <dd>
+                                    보다 섬세하고 풍부한 음향을 위한 롯데콘서트홀의 노력은 건축기술에도 적용되었습니다. 
+                                    공연 감상에 있어 최상의 환경을 제공하고자 국내 공연장 최초로 콘서트홀의 내부 구조&#40;바닥, 벽, 천장&#41;를
+                                    외부 구조로부터 완전히 분리한 <span>BOX-in-BOX</span> 구조를 도입하였습니다. <br>
+                                    공간 안에 다른 공간을 넣는 <span>BOX-in-BOX</span> 구조는 외부 공간을 이중으로 감싸면서 소음과 진동을 완벽히 차단하여 관객의 공연 몰입도를 높여줍니다.
+                                    <strong>섬세하게 설계된 명품 콘서트홀에서 탁월한 음향의 즐거움을 만끽하시기 바랍니다.</strong>
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+                <div class="cont2 tab_title">
+                    <!-- <h4><i class="fa-solid fa-chevron-right"></i>객석</h4> -->
+                    
+                    <div>
+                        <img src="./images/sub2_1/sub2_1_intro2S.jpg" alt="">
+                        <ul>
+                            <li>완벽한 소리를 전달하는<br><span>‘빈야드 구조의 객석’</span></li>
+                            <li>
+                                ‘베를린 필하모닉홀’, 프랑스 ‘필하모니 드 파리’, 일본 ‘산토리홀’ 등 세계 유수 콘서트홀의 &#8216;빈야드&lpar;포도밭, 부채꼴 형태&rpar;&#8217; 
+                                스타일의 객석은 아름다운 디자인과 뛰어난 음향을 자랑합니다.
+                            </li>
+                            <li>
+                                롯데콘서트홀 역시 세계적 트렌드인 ‘빈야드’ 구조의 객석을 설계하여 
+                                무대와 객석의 교감을 높이고 공연 감상의 만족도를 높여 드리고자 합니다. 
+                            </li>
+                            <li>
+                                <strong>어떤 자리에서도 뛰어난 음향을 경험할 수 있는 ‘빈야드’ 구조는 국내 최초로 선보이는 롯데콘서트홀만의 자랑입니다.</strong>
+                            </li>
+                        </ul>
+                    </div>
+                
+                    <div>
+                        <img src="./images/sub2_1/sub2_1_intro2S2.jpg" alt="">
+                        <ul>
+                            <li>공연의 몰입도를 배려한 <br><span>&#8216;음악전용 콘서트홀&#8217;</span></li>
+                            <li>
+                                롯데콘서트홀은 서울에 두 번째로 건립되는 대규모 음악전용 콘서트홀 입니다.
+                            </li>   
+                            <li>
+                                무대에서 객석으로 멜로디가 퍼지는 느낌을 본떠 붉은 색 계열의 그라데이션으로 디자인한 2,036석의 세련된 객석은 
+                                공연을 즐기는 관객으로 하여금 음악의 일부가 되는 특별한 감동을 느끼게 해 드릴 것입니다. 
+                            </li>
+                            <li>
+                                공연장이 관객으로 가득 차게 되면 부드러운 소리의 울림이 줄어드는 현상 또한 객석의 소재와 배치, 설치 등을 통해 보완하였습니다. 
+                                작은 소리의 차이가 큰 감동의 차이를 만든다는 것을 알기에 롯데콘서트홀은 디테일 하나까지 세밀하게 설계했습니다. 
+                            </li>
+                            <li>
+                                <strong>세련되고 편안한 공간에서 잊지 못할 음악의 감동을 가슴 깊이 느껴보시기 바랍니다.</strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cont3 tab_title">   
+                       <ul>
+                            <li>
+                                <img src="./images/sub2_1/sub2_1_intro3S.jpg" alt="">
+                                <dl>
+                                    <dt>국내 콘서트홀 최초로 파이프 오르간 설치<br>
+                                       <span> &#8216;68스탑, 5,000여 개의 파이프&#8217;</span>
+                                    </dt>
+                                    <dd>오케스트라 선율을 표현하여 '악기의 제왕'이라 불리는 파이프 오르간은 손꼽히는 클래식홀에서만 만날 수 있는 악기입니다. </dd>
+                                    <dd>국내 최초로 '파이프 오르간'이 설치된 클래식 전용홀인 롯데콘서트홀의 파이프 오르간은 오스트리아의 '빈 뮤직페라인 
+                                        홀'의 파이프를 제작한 'Rieger'(리거)社에서 제작한 것으로 개발부터 설치까지 3년 이상이 소요된 하나의 '작품'입니다. </dd>
+                                    <dd>5,000여 개의 파이프를 통해 68가지(68스탑)의 소리를 구현하는 롯데콘서트홀의 파이프 오르간이 선사하는 
+                                        아름다운 조형미와 신비롭고 다채로운 소리의 향연을 느껴 보시기 바랍니다.
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <img src="./images/sub2_1/sub2_1_intro3S2.jpg" alt="">
+                                <dl>
+                                    <dt>다양한 규모의 공연을 넘나드는<br>
+                                        <span>&#8216;라운드형 무대 리프트&#8217;</span>
+                                    </dt>
+                                    <dd>
+                                        롯데콘서트홀은 국내 최초로 ‘라운드형 무대 리프트’를 설치하였습니다. </dd>
+                                    <dd>자유자재로 높이를 조절할 수 있는 ‘무대 리프트’는 연주자들의 편의성을 높여줄 뿐만 아니라 독주회, 
+                                        실내악 등 소규모 공연부터 오케스트라, 합창과 같은 대규모 공연까지 다양한 형태의 클래식 공연을 진행할 수 있어 매우 효율적입니다. </dd>
+                                    <dd>롯데콘서트홀의 무대 리프트는 보다 풍성하고 다채로운 클래식 공연을 선보이기 위한 최상의 설비입니다.
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <img src="./images/sub2_1/sub2_1_intro3.jpg" alt="">
+                               <dl>
+                                    <dt>공연의 완성도를 높이는 수준 높은 공연 장비<br>
+                                        <span>&#8216;어쿠스틱 배너,<br>360도 시야각 맞춘 조명&#8217;</span>
+                                    </dt>
+                                    <dd>교향곡, 합창곡, 오케스트라 등 어떤 음악을 연주하느냐에 따라 선호하는 ‘잔향’의 길이는 각각 다르고 이는 공연의 완성도에도 영향을 미칠 수 있습니다. 
+                                        롯데콘서트홀은 섬세한 잔향까지 조절 가능한 ‘어쿠스틱 배너’를 설치하여 공연 특성에 따른 최적의 음향 환경을 조성하였습니다. </dd>
+                                    <dd>롯데콘서트홀은 무대가 객석으로 둘러싸인 형태이기 때문에 조명 역시 이에 맞게 구성하였습니다. </dd>
+                                    <dd>2,700K의 색 온도를 가진 친환경 LED 객석등과 함께 공연장 천장의 음향반사판 내외부를 비롯한 
+                                        객석 곳곳에 조명을 설치하여 공간의 매력을 최대한 살리고자 하였습니다. </dd>
+                                    <dd>
+                                        ‘편안한 시야’를 선사하는 품격 있는 조명은 클래식 공연의 완성도를 한 단계 끌어올릴 것입니다.
+                                    </dd>
+                               </dl>
+                            </li>
+                       </ul>
+                </div>
+            </div>
+
+       </article>
+
+
+
+</div>
+       <footer id="footerArea">
+            
+        <img class="footer_logo" src="./images/common/footer_logoWhx1.svg" alt="" >
+        <address>
+            서울특별시 송파구 올림픽로300 롯데월드몰 8층 롯데문화재단
+        </address>
+        <ul>
+            <li>대표 김형태</li>
+            <li>사업자등록번호 401-82-10731</li>
+        </ul>
+        <p class="copy">
+            &copy; 2016 LOTTE CONCERT HALL ALL RIGHTS RESERVED.
+        </p>
+        
+        <div>
+            <p>
+                <span>전화예매 및 문의</span>
+                <a href="tel:1544-7744">1544-7744</a>
+            </p>
+        </div>
+        <ul class="bottom_menu">
+            <li><a href="https://www.lotteconcerthall.com/kor/FooterMenu/Terms">이용약관</a></li>
+            <li><a href="https://www.lotteconcerthall.com/kor/FooterMenu/Privacy">개인정보처리방침</a></li>
+            <li><a href="https://www.lotteconcerthall.com/kor/FooterMenu/Equipment">영상정보처리기기 운영&#183;관리 방침</a></li>
+        </ul>
+        
+        <div class="family">
+            <a class="arrow" href="#">FAMILY SITE
+                <span class="material-symbols-outlined"> add </span>
+            </a>
+            <ul class="aList">
+                <li><a href="https://www.7-eleven.co.kr/" target="_blank" title="편의점 세븐일레븐 사이트 새창에 열림">세븐일레븐</a></li>
+                <li><a href="https://www.lotte.co.kr/main.do" target="_blank" title="롯데그룹 사이트 새창에 열림">롯데그룹</a></li>
+                <li><a href="https://www.muji.com/kr/" target="_blank" title="무인양품 사이트 새창에 열림">무인양품</a></li>
+                <li><a href="https://www.uniqlo.com/kr/ko/" target="_blank" title="유니클로 사이트 새창에 열림">유니클로</a></li>
+                <li><a href="https://www.lotteworld.com/gate.html" target="_blank" title="롯데월드 사이트 새창에 열림">롯데월드</a></li>
+            </ul>
+        </div>
+        
+        
+        
+    </footer>
+    
+    <a class="top_move" href="#"><span>TOP</span></a>
+   
+     
+    
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/sub2_1.js"></script>
+</body>
+</html>
+
+
+

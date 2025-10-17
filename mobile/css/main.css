@@ -1,0 +1,290 @@
+/* index css */
+/* 전체 h3, p tag css */
+section p{
+    font-size: 1.22rem;
+    text-align: center;
+    padding-bottom: 30px;
+}
+section h3{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+/* 더보기 버튼 공통 */
+section .btnView {
+    width: 50px;
+    height: 50px;
+    border: 3px solid var(--font-color-point2);
+    border-radius: 50%;
+    background: transparent;
+    transition: transform 0.15s ease;
+    z-index: 3;
+    position: absolute;
+    display: flex; justify-content: center; align-items: center;
+}
+section .fa-solid{
+    font-size: 1.89rem;
+    color: var(--font-color-point2);
+}
+section .btnView:active{
+    transform: scale(0.8);
+}
+/* visual css */
+.visual{
+    margin-bottom: 50px;
+}
+.visual .swiper1{
+    width: 100%;
+    height: auto; /*swiper height 유동이면 auto 고정이면 px값*/
+}
+.visual .swiper1 .swiper-slide{
+    text-align: center;
+}
+.visual .swiper1 .swiper-slide img{
+    width: 100%;
+}
+.visual .swiper1 .swiper-slide p{
+    position: absolute; top: 50%; left: 50%; transform: translateX(-50%);
+    font-size: 1.2rem; color: #fff; 
+    width: 100%;
+    text-align: center;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, .5);
+    font-weight: 400;
+}
+.visual .swiper1 .swiper-slide p img{
+    width: 130px; height: 20px;
+    padding:2px 0 0 5px
+}
+.visual .swiper1 .swiper-slide span{
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    font-style: italic;
+    word-spacing: 7px;
+    font-weight: 700;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, .5);
+}
+/* 1 */
+.trendingEvent{
+    position: relative;
+}
+
+.trendingEvent .swiper2 {
+    width: 100%;
+    margin: 100px 0;
+}
+.trendingEvent .swiper2 .swiper-slide {
+    text-align: center;
+}
+.trendingEvent .swiper-slide img{
+    border-radius: 30px;
+}
+.trendingEvent>a{
+ top: 105px; left: 50%; margin-left: -26px;
+}
+
+.trendingEvent .swiper-button-next,
+.trendingEvent .swiper-button-prev{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
+    color: var(--font-color-point2); opacity: .8;
+}
+.swiper-pagination-bullet{
+    background: #fff; opacity: .9;
+}
+.trendingEvent .swiper-pagination-bullet-active{
+    background: var(--font-color-point2);
+}
+
+/* 2 */
+.brandStory{
+    background: rgba(174, 155, 115, .2);
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+    margin-bottom: 100px;
+}
+.brandStory p {
+    margin-bottom: 100px;
+}
+.brandStory .swiper3 li img{
+    width: 100%;
+}
+/* .brandStory .swiper3 li::after{
+content: '';
+width: 70%;
+height: 25%;
+background: rgba(174, 155, 115, .7);
+position: absolute; bottom: 0; left: 50%; transform: translateX(-50%);
+} */
+.brandStory>a{
+    top: 202px; left: 50%; margin-left: -26px;
+}
+.brandStory .li{
+    position: relative;
+}
+.brandStory #bS_Txt ul{
+    color: #fff;
+    font-size: 1.22rem;
+    padding: 15px 10% 15px 4%;
+    text-align: left;
+    background-color: rgba(174, 155, 115, .6);
+    border-radius: 0 100px 100px 0;
+    position:absolute; bottom: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+    z-index: 2;
+    backdrop-filter: blur(2px);
+}
+.brandStory #bS_Txt li:first-of-type{
+}
+.brandStory #bS_Txt li:last-of-type{
+    color: var(--font-color-sub);
+    font-family: "Frank Ruhl Libre", serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+.brandStory .swiper-container-horizontal>.swiper-pagination-bullets{
+    bottom: -30px;
+}
+.brandStory .swiper-pagination-bullet{
+    background: rgba(0, 0, 0, .5);
+}
+.brandStory .swiper-pagination-bullet-active{
+    background: var(--font-color-sub);
+}
+
+/* 3 */
+.introHall div{
+text-align: center;
+}
+.introHall img{
+    width:80%;
+    padding: 20px 20px 20px 0px;
+    display: flex;
+    /* position: relative;left: 50%; transform: translateX(-50%); margin-left: -105px; top: 0; */
+}
+.introHall .swiper_tab{
+    overflow: hidden;
+}
+.introHall  #iH_Txt{
+    background: #fff;
+    width:51%;
+    height: auto;
+    padding: 20px;
+    z-index: 2;
+    position: relative;
+    bottom: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: 73px;
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, .2);
+
+}
+.introHall dt{
+    font-size: 1.2rem;
+    padding-bottom: 25px;
+    font-weight: 600;
+    line-height: 1.5rem;
+    text-align: left;
+}
+.introHall dt span{
+    color: var(--font-color-point2);
+    font-size: 1.3rem;
+}
+.introHall dd{
+    text-align: justify;
+}
+.introHall .tabs{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.22rem;
+    font-weight: 500;
+
+}
+.introHall .tabs a{
+    padding: 13px;
+    width: 33.33%;
+}
+.introHall .tabs a.active{
+    border-top: 2px solid var(--font-color-point2);
+    color: var(--font-color-point2);
+}
+.introHall{
+    position: relative;
+}
+.introHall p{margin-bottom: 100px;}
+.introHall>a{
+    top: 100px; left: 50%; margin-left: -26px;
+}
+/* 4 */
+.lotteCulture{
+    background: rgba(174, 155, 115, .3);
+    padding: 70px 0;
+    text-align: center;
+}
+.lotteCulture .gallery-top{
+    padding: 50px 0 0;
+}
+.lotteCulture .swiper-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lotteCulture .swiper-slide img{
+    width: 100%;
+}
+.lotteCulture .gallery-top {
+    height: 100%;
+    width: 100%;
+}
+.lotteCulture .gallery_Txt{
+    display: flex; flex-direction: column
+
+
+}
+.lotteCulture .gallery-thumbs {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+.lotteCulture .gallery-thumbs .swiper-slide{
+    width: 100%;
+    opacity: .7; 
+}
+.lotteCulture .gallery-thumbs .swiper-slide-thumb-active{
+    opacity: 1;
+}
+.lotteCulture .swiper-button-prev, .swiper-container-rtl .swiper-button-next,
+.lotteCulture .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+    margin-top: -135px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
+    color: #fff; opacity: .8;
+}
+.lotteCulture h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 30px 0 20px;
+    
+}
+.lotteCulture p{
+    padding: 0 10px 20px;
+}
+.lotteCulture .lC_btnView{
+    padding: 10px 25px;
+    border-radius: 100px;
+    background: var(--font-color-point2);
+    color: #fff;
+    border:2px solid var(--font-color-point2);
+    display: inline-block;
+}
+.lotteCulture .lC_btnView:active{
+    background: #fafafa;
+    border:2px  solid var(--font-color-point2);
+    color: var(--font-color-point2);
+    font-weight: bolder;
+}
+
+
+

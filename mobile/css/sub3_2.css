@@ -1,0 +1,196 @@
+.visual{
+    background: url(../images/sub3_1/sub3_visual.jpg) no-repeat center center;
+    width:100%; height:200px;
+    background-size:cover;
+    position: relative;
+}
+.visual span{
+    display: block;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+.sub_nav{
+    width: 100%;
+    border-bottom: 1px solid #c1c1c1;
+}
+.sub_nav ul{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.sub_nav ul li{
+    width: 50%;
+}
+.sub_nav ul li a{
+    padding: 10px 0;
+    font-weight: 500;
+}
+.sub_nav li .current{
+    background: var(--font-color-point2);
+    color: #fff;
+    font-weight: 600;
+}
+#content .title_area h2{
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 100px 0 80px;
+    position: relative;
+}
+#content .title_area h2::before{
+content: ''; width: 12px; height: 12px; background: var(--font-color-point2);
+position: absolute; transform: rotate(45deg); border-radius: 2px; 
+top: -27px; left: 50%; margin-left: -6px;
+}
+#content .title_area h2::after{
+content: ''; width: 12px; height: 12px; background: var(--font-color-point2);
+position: absolute; transform: rotate(45deg); border-radius: 2px; 
+bottom: -34px; left: 50%; margin-left: -6px;
+}
+
+
+
+
+#content .content_area #map{
+    width:95%;
+    height:300px;
+    border: 2px solid saddlebrown;
+    margin: 0 auto;
+}
+#content .content_area h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 35px;
+    position: relative;
+    margin-bottom: 20px;
+}
+#content .content_area h3::after{
+    content: ''; width: 5px; height: 22px; background: var(--font-color-point2);
+    position: absolute;
+    top: 6px; left: -20px; 
+}
+#content .content_area ul{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0 10px;
+}
+#content .content_area ul li{
+    padding-bottom: 10px;
+}
+#content .content_area ul address{
+    font-weight: 500;
+}
+.sub3_2Subway{
+    margin: 0 10px;
+    position: relative;
+}
+.sub3_2Subway::after{
+    content: ''; width: 100%; height: 1px; background: var(--font-color-point2);
+    position: absolute;
+    top: 15px; left: 110px; 
+}
+.sub3_2Subway dl{
+    margin: 50px 0;
+}
+.sub3_2Subway dt{
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex; align-items: center; gap: 10px;
+    margin-bottom: 30px;
+}
+.sub3_2Subway dd{
+    padding-bottom: 20px;
+}
+.sub3_2Subway dd strong{
+    font-size: 1.1rem;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 30px;
+    background: #fff;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.sub3_2Subway dd:first-of-type strong{
+    border: 3px solid #3CB74D;
+    color: #3CB74D;
+}
+.sub3_2Subway dd:last-of-type strong{
+    border: 3px solid #EF5D9C;
+    color: #EF5D9C;
+}
+
+.sub3_2Subway dd span:last-of-type{
+    display: block;
+}
+.sub3_2Subway dd span{
+    padding-left: 10px;
+}
+
+
+
+
+.sub3_2Bus{
+    margin: 0 10px;
+    position: relative;
+}
+.sub3_2Bus::after{
+    content: ''; width: 100%; height: 1px; background: var(--font-color-point2);
+    position: absolute;
+    top: 15px; left: 90px; 
+}
+.sub3_2Bus dl{
+    margin: 50px 0;
+}
+.sub3_2Bus dt{
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex; align-items: center; gap: 10px;
+    margin-bottom: 30px;
+}
+.sub3_2Bus dt{
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex; align-items: center; gap: 10px;
+    margin-bottom: 30px;
+}
+.sub3_2Bus dd{
+    padding-bottom: 20px;
+}
+.sub3_2Bus dd strong{
+    font-size: 1.1rem;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 30px;
+    background: #fff;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.sub3_2Bus dd:nth-of-type(1) strong{
+    border: 3px solid #34A2F7;
+    color: #34A2F7;
+}
+.sub3_2Bus dd:nth-of-type(2) strong{
+    border: 3px solid #4DC74D;
+    color: #4DC74D;
+}
+.sub3_2Bus dd:nth-of-type(3) strong{
+    border: 3px solid #E2565F;
+    color: #E2565F;
+}
+.sub3_2Bus dd:nth-of-type(4) strong{
+    border: 3px solid #B16D79;
+    color: #B16D79;
+}
+
+.sub3_2Bus dd span:last-of-type{
+    display: block;
+}
+.sub3_2Bus dd span{
+    padding-left: 10px;
+}

@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "format-detection" content = "telephone=no">
+    <title>공연안내</title>
+    <link rel="apple-touch-icon-precomposed" href="./app_icon.png">
+    <link rel="apple-touch-startup-image" href="./startup.png">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/sub1_2.css">
+
+    <script src="https://kit.fontawesome.com/7b0bba4102.js" crossorigin="anonymous"></script>
+    <script>
+        // <![CDATA[
+        try {
+        window.addEventListener('load', function(){
+            setTimeout(scrollTo, 0, 0, 1); 
+        }, false);
+        } 
+        catch(e) {}
+        // ]]>
+    </script>
+</head>
+<body>
+    <div id="skipNav">
+        <a href="#content">본문바로가기</a>
+        <a href="#gnb">네비게이션바로가기</a>
+    </div>
+    
+    
+     <div id="wrap">
+        <header id="headerArea">
+            <h1><a href="./index.html">롯데콘서트홀 로고</a></h1>
+            <a href="#" class="menu_ham">
+            <span>메뉴</span>
+            </a>
+            <nav id="gnb">
+                <h2 class="hidden">글로벌네비게이션영역</h2>
+                <img src="./images/common/lotte_Logox1v1.svg" alt="롯데 콘서트홀 영문 로고 이미지">
+                <ul class="mainMenu">  
+                    <li class="depth1">
+                        <h3>
+                            <a href="#">공연안내<span class="material-symbols-outlined"> expand_more </span></a> 
+                        </h3>
+                        <ul>
+                            <li><a href="./sub1_1.html">공연안내</a></li>
+                            <li><a href="./sub1_2.html">예매안내</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                        <h3>
+                            <a href="#">롯데콘서트홀<span class="material-symbols-outlined">expand_more</span></a>            
+                        </h3>
+                        <ul>
+                            <li><a href="./sub2_1.html">공연장 소개</a></li>
+                            <li><a href="./sub2_2.html">브랜드 스토리</a></li>
+                            <li><a href="./sub2_3.html">대관시설안내</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                        <h3>
+                            <a href="#">이용안내<span class="material-symbols-outlined">expand_more</span></a>
+                        </h3>
+                        <ul>
+                            <li><a href="./sub3_1.html">장애인이용안내</a></li>
+                            <li><a href="./sub3_2.html">오시는 길</a></li>
+                            <li><a href="./sub3_3.html">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                        <h3>
+                            <a href="#">Lotte Culture<span class="material-symbols-outlined">expand_more</span></a>
+                        </h3>
+                        <ul>
+                            <li><a href="./sub4_1.html">롯데문화재단</a></li>
+                            <li><a href="./sub4_2.html">롯데뮤지엄</a></li>
+                            <li><a href="./sub4_3.html">롯데월드타워</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="gnb_login">
+                    <p><a href="./login/login.html">로그인</a></p>
+                    <p><a href="./member/member_check.html">회원가입</a></p>
+                </div>
+                <div class="sns">
+                    <a href="https://www.instagram.com/lotteconcerthall"><img src="./images/common/insta.png" alt="인스타그램 바로가기"></a>
+                    <a href="https://blog.naver.com/lotteconcerthall"><img src="./images/common/blog.png" alt="블로그 바로가기"></a>
+                    <a href="https://www.youtube.com/channel/UCCxcy7ryeUyT-hkKmPpPIkg"><img src="./images/common/youtube.png" alt="유튜브 바로가기"></a>
+                    <a href="https://pf.kakao.com/_PMxohxl"><img src="./images/common/kakao.png" alt="카카오톡 채널 바로가기"></a>
+                </div>
+                 <!-- 검색팝업 -->
+                 <div class="total_search_box">
+                    <label for="total_title">공연검색</label>
+                    <input id="total_title" type="text" placeholder="클래식" list="total_searchList"/>
+                    <button id="total_btn" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            
+                    <datalist id="total_searchList">
+                        <option value="SM 클래식 라이브 2025 in SEOUL"></option>
+                        <option value="림스키코르사코프 &#39;셰네라자드&#39;"></option>
+                        <option value="윤한결의 모차르트와 슈트라우스"></option>
+                    </datalist>
+                </div>
+           </nav>
+          
+        </header>
+       <div class="visual">
+            <span>공연안내</span>
+       </div>
+       <div class="sub_nav">
+            <ul>
+                <li><a href="./sub1_1.html">공연안내</a></li> 
+                <li><a href="./sub1_2.html" class="current">예매안내</a></li>
+            </ul>
+        </div>
+       <article id="content">
+          <div class="title_area">
+            <h2>예매안내</h2>
+          </div>
+          <div class="content_area">
+            <ul class="sub1_2TabButton">
+                <li>  
+                    <a href="#" class="current">
+                        <i class="fa-solid fa-bookmark"></i>
+                        <p>인터넷 예매</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>전화예매</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-shop"></i>
+                        <p>현장구매</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-ticket"></i>
+                        <p>입장권 수령</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                        <p>환불 및 변경</p>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="tab1 tab_title">        
+                <ul>
+                    <li>예매 시 별도의 수수료는 없습니다.</li>
+                    <li>
+                        <dl>
+                            <dt>예매가능 시간 &#58;</dt>
+                            <dd>
+                             24시간 예매 가능 <br>&#40;공연시작 2시간 전까지 예매가능&#41;
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>예매 방법 &#58;</dt>
+                            <dd>회원가입 및 로그인 > 공연선택 > 공연 일시 및 좌석 선택 > 결제 > 완료</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>결제 수단 &#58;</dt> 
+                            <dd>
+                             신용카드 &#47; 가상계좌 입금 &#40;공연일 4일 전 오후 6시까지 가능&#41; &#47; L.Point &#40;롯데문화재단 기획공연 결제 시에 한함&#41;
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab2 tab_title">
+                <ul>                  
+                    <li>예매 시 별도의 수수료는 없습니다.</li>
+                    <li>
+                        <dl>
+                            <dt>고객센터 &#58;</dt>
+                            <dd><a href="tel:1544-7744">1544-7744</a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>예매가능 시간 &#58;</dt> 
+                            <dd>평일 10시30분&#8208;19시 &#40;주말&#44; 공휴일휴무 &#47; 점심휴게시간 11시30분 &#126; 12시30분&#41;</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>결제 수단 &#58;</dt>
+                            <dd>신용카드 &#47; 가상계좌 입금 &#40;공연일 4일 전 오후 6시까지 가능&#41;</dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab3 tab_title">      
+                <ul>                  
+                    <li>공연이 있는 날에는 당일 공연에 한해 티켓박스 운영시간에 구매가 가능합니다.</li>
+                    <li>&#42;단&#44; 공연이 없는 날에는 티켓박스를 운영하지 않습니다.</li>
+                    <li>
+                        <dl>
+                        <dt>&#42;티켓박스 운영시간 &#58;</dt>
+                        <dd>티켓박스 오픈 시&#8208;공연시작 후 30분까지</dd>
+                        </dl>
+                     </li>
+                    <li>티켓박스 오픈 시간은 공연마다 상이하므로 공연별 예매 페이지 하단 &#8216;티켓 수령안내&#8217; 내용을 확인해주시기 바랍니다.</li>
+                    <li>당일 공연을 제외한 공연 예매는 인터넷 &#47; 전화 예매만 가능합니다.</li>
+                    <li>
+                        <dl>
+                            <dt>결제 수단 &#58;</dt>
+                            <dd>신용카드 &#47; 현금 &#47; 기타 지정된 상품권</dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+             
+            <div class="tab4 tab_title">
+                <!-- 입장권수령 -->
+                <div>
+                    <dl>
+                        <dt><i class="fa-solid fa-angle-right"></i>현장수령</dt>
+                        <dd>공연당일 공연장 8층 로비에 위치한 &#8216;티켓박스&#8217;에서 티켓 수령이 가능합니다.</dd>
+                        <dd>수령방식이 공연별로 상이하니&#44; 자세한 내용은 공연별 예매 페이지 하단 &#8217;예매유의사항&#8217;을 참고하시기 바랍니다.</dd>
+                        <dd><strong>&nbsp;&#42;관련문의</strong> <br>롯데콘서트홀 고객센터&#8208;<a href="tel:1544-7744">1544-7744</a> &#47; 운영시간&#8208;평일 10시30분 &#126; 19시 &#40;주말&#44; 공휴일휴무 &#47; 점심휴게시간 11시30분 &#126; 12시30분&#41;</dd>
+                    </dl>
+
+                    <dl>
+                        <dt><i class="fa-solid fa-angle-right"></i>배송</dt>
+                        <dd>티켓배송은 입금완료기준 5일 이내에 배송됩니다. &#40;공휴일 제외 영업일 기준&#41;</dd>
+                        <dd>티켓배송이 시작된 이후에 취소요청 시에는 배송료가 환불되지 않습니다.</dd>
+                        <dd>고객 귀책 사유로 티켓 분실이나 파손 시 재발행 되지 않으며&#44; 공연 취소 및 변경도 불가하오니 보관에 유의해 주시기 바랍니다.</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="tab5 tab_title">
+                <p><i class="fa-solid fa-angle-right"></i>입장권 환불 및 변경</p>
+                <ul>
+                    <li>예매티켓의 취소 및 변경은 공연일 전 평일 18시&#40;주말&#44;공휴일 휴무&#41;까지 인터넷&#44;전화로 가능합니다.</li>
+                    <li>취소마감시간이후&#40;공연당일포함&#41;에는 티켓의 취소 및 변경이 불가합니다.</li>
+                    <li>예매당일은 취소수수료가 부과 되지 않습니다. &#40;전화예매는 평일&#126;18시 &#47; 인터넷예매는 &#126;23시59분까지&#41;</li>
+                    <li>예매티켓&#40;패키지티켓 포함&#41;의 변경은 동일한 공연&#47;등급&#47;좌석 수&#47;할인종류&#47;가격에 해당하는 다른 좌석으로 수수료 없이 가능합니다.</li>
+                    <li>티켓을 사전 수령 또는 우편발송 받으신 경우 예매된 전체티켓을 모두 반납해 주신 후에 재결제로 취소 및 변경이 가능합니다.<br>
+                        단&#44; 할인은 재결제 시점을 기준으로 적용됩니다.
+                        취소수수료는 반납일자 기준으로 부과되며&#44; 기존배송료는 환불되지 않습니다.</li>
+                    <li>고객 귀책 사유로 티켓 분실이나 파손이 될 경우&#44; 티켓은 재발행 되지 않으며&#44; 공연 취소 및 변경도 불가합니다.</li>
+                    <li>티켓 예매 시 선택한 결제수단으로만 환불&#44; 변경이 가능합니다.</li>
+                    <li>롯데콘서트홀 이외의 외부 예매처나 공연기획사에서 예매한 티켓은 직접 예매한 곳으로 환불 및 변경 절차를 문의해 주시기 바랍니다.</li>
+                    <li>초대권&#44; 초대교환권&#44; 기획사 판매로 명시된 티켓은 환불이나 변경되지 않습니다.</li>
+                </ul>
+                <div class="tab5_table">
+                    <div class="hgroup">
+                        <p><i class="fa-solid fa-angle-right"></i>환불 및 취소 규정</p>
+                        <a class="all" href="#">
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
+                    </div>
+                    <ul>
+                        <li class="article hide">
+                            <p class="q">
+                                <a class="trigger" href="#" >
+                                 &#91;현행&#93;2023년 4월 9일&#40;일&#41;까지 티켓오픈된 공연
+                                 <span class="chevDown"></span>
+                                </a>
+                            </p>
+                            <div class="table">
+                              <ul>
+                                    <li>
+                                        <span>개별공연</span>
+                                        <dl>
+                                            <dt><i class="fa-solid fa-circle-exclamation"></i>취소 및 변경 마감시간</dt>
+                                            <dd>공연일~18시 까지</dd>
+                                            <dt><i class="fa-solid fa-circle-exclamation"></i>취소 수수료</dt>
+                                            <dd>관람일 10일 전 - 없음 <br>
+                                                관람일 9일전~취소마감시간까지 - 티켓금액의 10%<br>
+                                            </dd>
+                                        </dl>
+                                    </li>
+                                    <li><span>패키지</span>
+                                        <dl>
+                                            <dt><i class="fa-solid fa-circle-exclamation"></i>취소 및 변경 마감시간</dt>
+                                            <dd>패키지 첫 공연일 이전 평일 18시 까지 <br>
+                                            <span>*동일공연에 한하여 관람일 변경은 해당 공연일 이전 평일 18시 까지 가능</span></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><i class="fa-solid fa-circle-exclamation"></i>취소 수수료</dt>
+                                            <dd>관람일 10일 전 - 없음 <br>
+                                                첫공연관람일 9일전~취소마감시간까지 - 티켓금액의 10%<br>
+                                            </dd>
+                                        </dl>
+                                    </li>
+                              </ul>
+                            </div>
+                        </li>
+                        
+                        <li class="article hide">
+                            <p class="q">
+                                <a class="trigger" href="#" >
+                                &#91;변경&#93;2023년 4월 10일&#40;월&#41; 이후 티켓오픈 공연
+                                <span class="chevDown"></span>
+                                </a>
+                            </p>
+                            <div class="table">
+                                <ul>
+                                    <li><span>개별공연</span>
+                                        <dl>
+                                            <dt><i class="fa-solid fa-circle-exclamation"></i>취소 및 변경 마감시간</dt>
+                                            <dd>공연일~18시 까지</dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><i class="fa-solid fa-circle-exclamation"></i>취소 수수료</dt>
+                                            <dd>관람일 10일 전 - 없음 <br>
+                                                관람일 9일전~7일전까지 - 티켓금액의 10%<br>
+                                                관람일 6일전~3일전까지 - 티켓금액의 20%<br>
+                                                관람일 2일전~취소마감시간까지 - 티켓금액의 30%
+                                            </dd>
+                                        </dl>
+                                    </li>
+                                    <li><span>패키지</span>
+                                        <dl>
+                                            <dt><i class="fa-solid fa-circle-exclamation"></i>취소 및 변경 마감시간</dt>
+                                            <dd>패키지 첫 공연일 이전 평일 18시 까지 <br>
+                                                <span>*동일공연에 한하여 관람일 변경은 해당 공연일 이전 평일 18시 까지 가능</span></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><i class="fa-solid fa-circle-exclamation"></i>취소 수수료</dt>
+                                            <dd>관람일 10일 전 - 없음 <br>
+                                                관람일 9일전~7일전까지 - 티켓금액의 10%<br>
+                                            </dd>
+                                        </dl>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            
+            </div>
+
+          </div>
+       </article>
+
+
+
+
+       <footer id="footerArea">
+            
+        <img class="footer_logo" src="./images/common/footer_logoWhx1.svg" alt="푸터 흰색 롯데콘서트홀 영문 로고 이미지" >
+        <address>
+            서울특별시 송파구 올림픽로300 롯데월드몰 8층 롯데문화재단
+        </address>
+        <ul>
+            <li>대표 김형태</li>
+            <li>사업자등록번호 401-82-10731</li>
+        </ul>
+        <p class="copy">
+            &copy; 2016 LOTTE CONCERT HALL ALL RIGHTS RESERVED.
+        </p>
+        
+        <div>
+            <p>
+                <span>전화예매 및 문의</span>
+                <a href="tel:1544-7744">1544-7744</a>
+            </p>
+        </div>
+        <ul class="bottom_menu">
+            <li><a href="https://www.lotteconcerthall.com/kor/FooterMenu/Terms">이용약관</a></li>
+            <li><a href="https://www.lotteconcerthall.com/kor/FooterMenu/Privacy">개인정보처리방침</a></li>
+            <li><a href="https://www.lotteconcerthall.com/kor/FooterMenu/Equipment">영상정보처리기기 운영&#183;관리 방침</a></li>
+        </ul>
+        
+        <div class="family">
+            <a class="arrow" href="#">FAMILY SITE
+                <span class="material-symbols-outlined"> add </span>
+            </a>
+            <ul class="aList">
+                <li><a href="https://www.7-eleven.co.kr/" target="_blank" title="편의점 세븐일레븐 사이트 새창에 열림">세븐일레븐</a></li>
+                <li><a href="https://www.lotte.co.kr/main.do" target="_blank" title="롯데그룹 사이트 새창에 열림">롯데그룹</a></li>
+                <li><a href="https://www.muji.com/kr/" target="_blank" title="무인양품 사이트 새창에 열림">무인양품</a></li>
+                <li><a href="https://www.uniqlo.com/kr/ko/" target="_blank" title="유니클로 사이트 새창에 열림">유니클로</a></li>
+                <li><a href="https://www.lotteworld.com/gate.html" target="_blank" title="롯데월드 사이트 새창에 열림">롯데월드</a></li>
+            </ul>
+        </div>
+        
+        
+        
+    </footer>
+    
+    <a class="top_move" href="#"><span>TOP</span></a>
+   
+     </div>
+    
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/sub1_2.js"></script>
+</body>
+</html>
+
+
+
