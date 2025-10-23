@@ -317,7 +317,7 @@ var characters = {
         ultimate: {
           name: 'Emplaced Minigun "Sheila"',
           description: 'Deploy a powerful minigun that can be used by you or your teammates.',
-          imgsrc:'./images/sub2/sub2_abillity/crAmped_Cover.png'
+          imgsrc:'./images/sub2/sub2_abillity/crSheila.png'
         }
       }
     },
@@ -399,12 +399,12 @@ var characters = {
         passive: {
           name: 'Heart Seeker',
           description: 'Detect the heartbeats of nearby enemies when aiming down sights.',
-          imgsrc:'./images/sub2/sub2_abillity/rsExhibit.png'
+          imgsrc:'./images/sub2/sub2_abillity/rsHeart_Seeker.png'
         },
         tactical: {
           name: 'Focus of Attention',
           description: 'Fire a micro-drone blast that reveals enemies, including their health and shields.',
-          imgsrc:'./images/sub2/sub2_abillity/rsExhibit.png'
+          imgsrc:'./images/sub2/sub2_abillity/rsFocus_of_Attention.png'
         },
         ultimate: {
           name: 'Exhibit',
@@ -422,12 +422,12 @@ var characters = {
         passive: {
           name: 'Marked for Death',
           description: 'See the location of death boxes on your map and mark surviving attackers.',
-          imgsrc:'./images/sub2/sub2_abillity/sasPhase_Breach.png'
+          imgsrc:'./images/sub2/sub2_abillity/sasPredator_Pursuit.png'
         },
         tactical: {
           name: 'Arc Snare',
           description: 'Throw a spinning snare that damages and tethers the first enemy who gets too close.',
-          imgsrc:'./images/sub2/sub2_abillity/sasPhase_Breach.png'
+          imgsrc:'./images/sub2/sub2_abillity/sasArc_Snare.png'
         },
         ultimate: {
           name: 'Phase Breach',
