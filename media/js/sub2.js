@@ -31,17 +31,17 @@ var characters = {
         passive: {
           name: 'Gun Shield',
           description: 'Aiming down sights deploys a gun shield that blocks incoming fire.',
-          imgsrc:'./images/sub2/sub2_abillity/rbEye_of_the_Allfather.png'
+          imgsrc:'./images/sub2/sub2_abillity/sgDome_of_Protection.png'
         },
         tactical: {
           name: 'Dome of Protection',
           description: 'Throw a shield dome that blocks all incoming and outgoing attacks for 15 seconds.',
-          imgsrc:'./images/sub2/sub2_abillity/rbEye_of_the_Allfather.png'
+          imgsrc:'./images/sub2/sub2_abillity/sgGun_Shield.png'
         },
         ultimate: {
           name: 'Defensive Bombardment',
           description: 'Call in a concentrated mortar strike on a marked position.',
-          imgsrc:'./images/sub2/sub2_abillity/rbEye_of_the_Allfather.png'
+          imgsrc:'./images/sub2/sub2_abillity/sgDefensive_Bombardment.png'
         }
       }
     },
@@ -54,17 +54,17 @@ var characters = {
         passive: {
           name: 'Combat Revive',
           description: 'Deploy the D.O.C. to automatically revive a teammate, freeing you up to defend.',
-          imgsrc:'./images/sub2/sub2_abillity/rbEye_of_the_Allfather.png'
+          imgsrc:'./images/sub2/sub2_abillity/slCombat_Glide.png'
         },
         tactical: {
           name: 'D.O.C. Heal Drone',
           description: 'Deploy a drone that automatically heals nearby allies.',
-          imgsrc:'./images/sub2/sub2_abillity/rbEye_of_the_Allfather.png'
+          imgsrc:'./images/sub2/sub2_abillity/slD.O.C._Heal_Drone.png'
         },
         ultimate: {
-          name: 'Care Package',
+          name: 'D.O.C. Halo',
           description: 'Call in a Care Package full of high-tier defensive gear.',
-          imgsrc:'./images/sub2/sub2_abillity/rbEye_of_the_Allfather.png'
+          imgsrc:'./images/sub2/sub2_abillity/slD.O.C._Halo.png'
         }
       }
     },
@@ -77,17 +77,17 @@ var characters = {
         passive: {
           name: 'Insider Knowledge',
           description: 'Scan a survey beacon to reduce the cooldown of your Zipline Gun.',
-          imgsrc:'./images/sub2/sub2_abillity/rbEye_of_the_Allfather.png'
+          imgsrc:'./images/sub2/sub2_abillity/spInsider_Knowledge.png'
         },
         tactical: {
           name: 'Grappling Hook',
           description: 'Grapple to a wall or ground to get a quick vertical boost or to swing great distances.',
-          imgsrc:'./images/sub2/sub2_abillity/rbEye_of_the_Allfather.png'
+          imgsrc:'./images/sub2/sub2_abillity/spGrappling_Hook.png'
         },
         ultimate: {
           name: 'Zipline Gun',
           description: 'Create a zipline for you and your allies to travel across long distances.',
-          imgsrc:'./images/sub2/sub2_abillity/rbEye_of_the_Allfather.png'
+          imgsrc:'./images/sub2/sub2_abillity/spZipline_Gun.png'
         }
       }
     },
@@ -100,17 +100,17 @@ var characters = {
         passive: {
           name: 'Voices from the Void',
           description: 'A voice warns you when danger is approaching, like traps or enemies aiming at you.',
-          imgsrc:'./images/sub2/sub2_abillity/rbEye_of_the_Allfather.png'
+          imgsrc:'./images/sub2/sub2_abillity/swVoices_from_the_Void.png'
         },
         tactical: {
           name: 'Into the Void',
           description: 'Phase into the void to avoid all damage. You cannot see or be seen by enemies while in the void.',
-          imgsrc:'./images/sub2/sub2_abillity/rbEye_of_the_Allfather.png'
+          imgsrc:'./images/sub2/sub2_abillity/swInto_the_Void.png'
         },
         ultimate: {
           name: 'Dimensional Rift',
           description: 'Place two portals that you and your teammates can use to travel between.',
-          imgsrc:'./images/sub2/sub2_abillity/rbEye_of_the_Allfather.png'
+          imgsrc:'./images/sub2/sub2_abillity/swDimensional_Rift.png'
         }
       }
     },
@@ -123,17 +123,17 @@ var characters = {
         passive: {
           name: 'Double Time',
           description: 'Taking fire while sprinting makes you move faster for a short time.',
-          imgsrc:'./images/sub2/sub2_abillity/rbEye_of_the_Allfather.png'
+          imgsrc:'./images/sub2/sub2_abillity/abgDouble_Time.png'
         },
         tactical: {
           name: 'Smoke Launcher',
           description: 'Fire a canister that explodes into a smoke screen, obscuring visibility.',
-          imgsrc:'./images/sub2/sub2_abillity/rbEye_of_the_Allfather.png'
+          imgsrc:'./images/sub2/sub2_abillity/abgSmoke_Launcher.png'
         },
         ultimate: {
           name: 'Rolling Thunder',
           description: 'Call in an artillery strike that slowly advances across the battlefield.',
-          imgsrc:'./images/sub2/sub2_abillity/rbEye_of_the_Allfather.png'
+          imgsrc:'./images/sub2/sub2_abillity/abgRolling_Thunder.png'
         }
       }
     },
@@ -146,17 +146,17 @@ var characters = {
         passive: {
           name: 'Nox Vision',
           description: 'You can see enemies through your Nox Gas traps and grenades.',
-          imgsrc:'./images/sub2/sub2_abillity/rbEye_of_the_Allfather.png'
+          imgsrc:'./images/sub2/sub2_abillity/cctNox_Vision.png'
         },
         tactical: {
           name: 'Nox Gas Trap',
           description: 'Drop up to 6 canisters that release a damaging gas when shot or triggered by an enemy.',
-          imgsrc:'./images/sub2/sub2_abillity/rbEye_of_the_Allfather.png'
+          imgsrc:'./images/sub2/sub2_abillity/cctNox_Gas_Trap.png'
         },
         ultimate: {
           name: 'Nox Gas Grenade',
           description: 'Throw a grenade that covers a large area in a thick cloud of Nox Gas.',
-          imgsrc:'./images/sub2/sub2_abillity/rbEye_of_the_Allfather.png'
+          imgsrc:'./images/sub2/sub2_abillity/cctNox_Gas_Grenade.png'
         }
       }
     },
@@ -169,17 +169,17 @@ var characters = {
         passive: {
           name: 'Now You See Me',
           description: 'Automatically cloak when downed and revive teammates invisibly.',
-          imgsrc:'./images/sub2/sub2_abillity/rbEye_of_the_Allfather.png'
+          imgsrc:'./images/sub2/sub2_abillity/smNow_You_See_Me....png'
         },
         tactical: {
           name: 'Psyche Out',
           description: 'Send out a decoy to confuse and distract enemies.',
-          imgsrc:'./images/sub2/sub2_abillity/rbEye_of_the_Allfather.png'
+          imgsrc:'./images/sub2/sub2_abillity/smPsyche_Out.png'
         },
         ultimate: {
           name: 'Life of the Party',
           description: 'Deploy a team of decoys that mimic your actions to confuse enemies.',
-          imgsrc:'./images/sub2/sub2_abillity/rbEye_of_the_Allfather.png'
+          imgsrc:'./images/sub2/sub2_abillity/smLife_of_the_Party.png'
         }
       }
     },
@@ -192,17 +192,17 @@ var characters = {
         passive: {
           name: 'Swift Mend',
           description: 'Automatically regain health over time when not taking damage.',
-          imgsrc:'./images/sub2/sub2_abillity/rbEye_of_the_Allfather.png'
+          imgsrc:'./images/sub2/sub2_abillity/soSwift_Mend.png'
         },
         tactical: {
           name: 'Stim',
           description: 'Increase your movement speed for a short time at the cost of your health.',
-          imgsrc:'./images/sub2/sub2_abillity/rbEye_of_the_Allfather.png'
+          imgsrc:'./images/sub2/sub2_abillity/soStim.png'
         },
         ultimate: {
           name: 'Launch Pad',
           description: 'Deploy a jump pad that launches you and your teammates high into the air.',
-          imgsrc:'./images/sub2/sub2_abillity/rbEye_of_the_Allfather.png'
+          imgsrc:'./images/sub2/sub2_abillity/soLaunch_Pad.png'
         }
       }
     },
