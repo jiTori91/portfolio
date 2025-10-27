@@ -56,7 +56,14 @@
 
 
 
-#content{ width:100%; margin:0; background:rgba(0,0,0,.9);  }
+#content{ 
+   width:100%; margin:0; 
+   /* background:rgba(0,0,0,.9);   */
+   background: url(../images/football-no-lines.png);
+   background-color: rgba(0, 0, 0, .95);
+   /* background-image: url("https://transparenttextures.com/patterns/asfalt-light.png"); */
+   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
 
 
 /* 일반 pc */
