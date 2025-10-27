@@ -39,8 +39,12 @@
 }		
 
 	
-#content{ width:100%; margin:0;; background:rgba(0,0,0,.9);position: relative;}
-#content h2{
+#content{ 
+    width:100%; margin:0; 
+    background: url(../images/football-no-lines.png);
+    background-color:rgba(0,0,0,.95);  
+ }
+ #content h2{
    position: absolute; top: -400px;
    width: 100%; text-align: center; font-size: 5rem; color: #fafafa;
 }
