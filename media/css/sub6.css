@@ -41,61 +41,63 @@
     width:100%; margin:0; 
     background: url(../images/football-no-lines.png);
     background-color:rgba(0,0,0,.95);  
+    & h2{
+        position: absolute; top: -400px;
+        width: 100%; text-align: center; font-size: 5rem; color: #fafafa;
+    }
+    & section{
+        & h4{
+            font-size: 4rem; 
+            padding-top: 50px;
+            margin-left: 50px;
+            & >span{
+                font-size: 5rem;
+                line-height: 4.7rem;
+                @media screen and (max-width:768px) {
+                    font-size: 4rem;
+                    line-height: 3rem;
+                }
+                @media screen and (max-width:640px) {
+                    font-size: 4rem;
+                    line-height: 3rem;
+                }
+            }
+            @media screen and (max-width:768px) {
+                font-size: 3rem;
+            }
+        }
+        & p{
+            font-size: 1.5rem;
+            margin-left: 50px;
+        }
+        & .wrapper {
+            width: 95%;
+            margin: 3rem auto 0 auto;
+            & .masonry {
+                margin: 0;
+                padding: 0;
+                column-count: 5;
+                column-gap: 10px;
+                & .item {
+                    display: inline-block;
+                    margin: 10px 0;
+                    width: 100%;
+                    border-radius: 20px;
+                    transition: all .3s ease-out;
+                    & >img{
+                        border-radius: 20px;
+                        width: 100%;
+                    }
+                    
+                }
+                & .item:hover{
+                    box-shadow: 0 0 10px var(--font-color-sub);
+                }
+            }
+        }
+    }
  }
- #content h2{
-    position: absolute; top: -400px;
-    width: 100%; text-align: center; font-size: 5rem; color: #fafafa;
-}
-h4{
-    font-size: 4rem; 
-    padding-top: 50px;
-    margin-left: 50px;
-    & >span{
-        font-size: 5rem;
-        line-height: 4.7rem;
-        @media screen and (max-width:768px) {
-            font-size: 4rem;
-            line-height: 3rem;
-        }
-        @media screen and (max-width:640px) {
-            font-size: 4rem;
-            line-height: 3rem;
-        }
-    }
-    @media screen and (max-width:768px) {
-        font-size: 3rem;
-    }
-}
-p{
-    font-size: 1.5rem;
-    margin-left: 50px;
-}
-.wrapper {
-    width: 95%;
-    margin: 3rem auto 0 auto;
-}
 
-.masonry {
-    margin: 0;
-    padding: 0;
-    column-count: 5;
-    column-gap: 10px;
-}
-
-.item {
-    display: inline-block;
-    margin: 10px 0;
-    width: 100%;
-    border-radius: 20px;
-    transition: all .5s ease-out;
-}
-.item:hover{
-    box-shadow: 0 0 10px var(--font-color-sub);
-}
-img{
-    border-radius: 20px;
-    width: 100%;
-}
 
 
 .updown img{
